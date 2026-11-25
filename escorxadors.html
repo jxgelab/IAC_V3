@@ -1,0 +1,870 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Escorxadors de baixa capacitat · Infraestructures alimentàries compartides · RuralCat</title>
+<meta name="description" content="Escorxadors de baixa capacitat a Catalunya: tipologies, estructura de suport, guia de bones pràctiques d&#x27;higiene i ajuts del PEAC (línia 2.2).">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Open+Sans:wght@400;600;700&display=swap">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#333333">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ca_ES">
+<meta property="og:site_name" content="RuralCat">
+<meta property="og:title" content="Escorxadors de baixa capacitat">
+<meta property="og:description" content="Escorxadors de baixa capacitat a Catalunya: tipologies, estructura de suport, guia de bones pràctiques d&#x27;higiene i ajuts del PEAC (línia 2.2).">
+<meta property="og:url" content="https://jxgelab.github.io/ruralcat-v2/escorxadors.html">
+<meta property="og:image" content="https://jxgelab.github.io/ruralcat-v2/og-escorxadors.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Escorxadors de baixa capacitat · RuralCat">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+/* Maqueta RuralCat: carcassa institucional (barra fosca, molla de pa, submenú de secció) i, a dins, una portada narrativa: xarxa animada, recorregut del camp a la taula, mapa amb zoom i capa de cobertura, cercador i eines interactives */
+:root{
+  --ink:#1F1F1F; --ink-2:#4A4A4A; --ink-3:#6B6B6B;
+  --bg:#FFFFFF; --panel:#F4F4F4; --panel-2:#EBEBEB; --line:#DEDEDE; --bar:#333333; --bar-ink:#FFFFFF;
+  --red:#C8102E; --red-dk:#9E0B23;
+  --xar:#E03A3E; --xar-ink:#B5232A; --xar-soft:#FCE9E9;
+  --esc:#00A19A; --esc-ink:#00756F; --esc-soft:#E2F4F3;
+  --obr:#EE7623; --obr-ink:#A9500F; --obr-soft:#FDEEE2;
+  --gap:#D9531E;
+  --warn-bg:#FFF4DC; --warn-ink:#7A4D00;
+  --night:#16211F; --night-2:#1F2E2B; --night-line:#4C6560; --night-ink:#E8EFEE; --night-mute:#A9BDB9;
+  --sea:#EAF0F2;
+  --f-ui:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --f-text:"Open Sans",Arial,Helvetica,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-text);font-size:15px;line-height:1.6}
+a{color:var(--red)} a:hover{color:var(--red-dk)}
+:focus-visible{outline:3px solid #1F6FEB;outline-offset:2px}
+.wrap{max-width:1224px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.note-bar{background:#FFF3B0;color:#3A2E00;font-size:13px;font-weight:600;text-align:center;padding-block:7px}
+header.top{background:#fff}
+.brandrow{border-bottom:1px solid var(--line)}
+.top-row{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:14px}
+.top-row a{display:block;line-height:0}
+.lg-rc{height:52px;width:auto}.lg-gc{height:36px;width:auto}
+.navband{background:var(--bar);color:var(--bar-ink)}
+@media (max-width:560px){.lg-rc{height:40px}.lg-gc{height:26px}}
+nav.main{display:flex;flex-wrap:wrap;justify-content:space-between;font-family:var(--f-ui);font-size:18px;font-weight:700}
+nav.main div{display:flex;flex-wrap:wrap}
+nav.main a{color:var(--bar-ink);text-decoration:none;padding:6px 18px 10px;border-left:1px solid #555}
+nav.main a:hover{background:#444}
+.crumb{background:var(--panel);margin-top:18px;padding:9px 16px;font-size:14px;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:6px 10px}
+.crumb a{color:var(--red);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+.sect{display:flex;flex-wrap:wrap;margin-top:10px;background:var(--panel)}
+.sect-name{display:flex;align-items:center;gap:10px;padding:14px 16px;background:var(--bg);font-size:14px;line-height:1.2;color:var(--ink-2);min-width:180px}
+.sect nav{flex:1 1 600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 40px;padding:18px 16px}
+.sect nav a{color:var(--ink);text-decoration:none;font-size:14px;text-transform:uppercase;padding:6px 0;border-bottom:2px solid transparent}
+.sect nav a[aria-current]{border-bottom-color:var(--red)}
+.sect nav a:hover{color:var(--red)}
+h1{font-size:34px;line-height:1.2;font-weight:400;margin:32px 0 24px;text-wrap:balance}
+h2{font-size:26px;font-weight:600;line-height:1.25;margin:0 0 14px;text-wrap:balance}
+h3{font-size:17px;font-weight:600;line-height:1.3;margin:0 0 6px}
+p{margin:0 0 12px}
+.lead{font-size:18px;line-height:1.6;max-width:62ch}
+.prose{max-width:70ch}
+.block{padding-block:48px;border-top:1px solid var(--line)}
+.block.first{border-top:0;padding-top:8px}
+.eyebrow{font-family:var(--f-ui);font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--red);margin:0 0 6px}
+.small{font-size:12px;color:var(--ink-3);line-height:1.6}
+.badge{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;background:var(--warn-bg);color:var(--warn-ink);padding:4px 10px;border-radius:3px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 20px;background:var(--red);color:#fff;text-decoration:none;font-weight:600;font-size:14px;border:0;cursor:pointer;font-family:inherit}
+.btn:hover{background:var(--red-dk);color:#fff}
+.btn.ghost{background:transparent;color:var(--ink-2);border:1px solid var(--line);cursor:default}
+.btn.line{background:transparent;color:var(--night-ink);border:1px solid var(--night-line)}
+.btn.line:hover{background:var(--night-2);color:#fff}
+.btn.sec{background:var(--bg);color:var(--ink);border:1px solid #8C8C8C}
+.btn.sec:hover{background:var(--panel)}
+
+/* barra de progrés de lectura */
+.progress{position:fixed;left:0;right:0;top:0;height:4px;background:var(--red);transform-origin:0 50%;transform:scaleX(0);z-index:50;pointer-events:none}
+@supports (animation-timeline: scroll()){
+  .progress{animation:prog linear both;animation-timeline:scroll(root)}
+  @keyframes prog{to{transform:scaleX(1)}}
+}
+/* aparició en fer scroll (estat de repòs visible on no hi ha suport) */
+@supports (animation-timeline: view()){
+  .rv{animation:rv linear both;animation-timeline:view();animation-range:entry 0% entry 35%}
+  @keyframes rv{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+  .grow{transform-origin:0 50%;animation:grow linear both;animation-timeline:view();animation-range:entry 20% cover 35%}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+}
+
+/* capçalera amb vídeo */
+.vhero{position:relative;isolation:isolate;display:flex;align-items:flex-end;height:clamp(320px,36vw,440px);margin:28px 0 8px;overflow:hidden;background:#16211F;color:#fff;border-bottom:6px solid var(--red)}
+.vh-v{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;animation:vhz 26s ease-in-out infinite alternate}
+@keyframes vhz{from{transform:scale(1)}to{transform:scale(1.07)}}
+.vhero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(14,22,20,.82) 0%,rgba(14,22,20,.5) 42%,rgba(14,22,20,0) 72%),linear-gradient(0deg,rgba(14,22,20,.6) 0%,rgba(14,22,20,0) 55%)}
+.vh-in{padding:0 44px 44px;max-width:760px}
+.vh-k{font-family:var(--f-ui);font-size:15px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#7FD3CC;margin:0 0 10px}
+.vhero h1{color:#fff;font-size:clamp(32px,4.4vw,54px);font-weight:600;line-height:1.06;letter-spacing:-.3px;margin:0 0 14px}
+.vh-s{font-size:17px;line-height:1.5;color:#E8EFEE;margin:0;max-width:46ch}
+.vh-p{position:absolute;right:16px;bottom:16px;display:grid;place-items:center;width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.55);background:rgba(0,0,0,.35);color:#fff;cursor:pointer}
+.vh-p:hover{background:rgba(0,0,0,.6)}.vh-p svg{width:16px;height:16px;fill:currentColor}
+@media (max-width:560px){.vh-in{padding:0 20px 26px}.vh-s{font-size:15px}.vhero{margin-top:20px}}
+/* icones */
+.icl{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px}
+.icl li{display:flex;align-items:center;gap:14px;padding:14px 16px;background:var(--panel);line-height:1.4}
+.ii,.gi{flex:none;display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--c-soft,#fff);color:var(--cc,var(--red))}
+.ii svg,.gi svg,.fitxa .fr svg{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ii svg,.gi svg{width:21px;height:21px}
+.gc .gi{margin-bottom:12px}
+.fitxa .fr{display:flex;gap:8px;align-items:flex-start}
+.fitxa .fr svg{flex:none;width:15px;height:15px;margin-top:3px;color:var(--fc)}
+@media (prefers-reduced-motion:reduce){.vh-v{animation:none}}
+/* menú de la portada: mosaic */
+.subnav{margin-top:32px}
+.subnav .wrap{container-type:inline-size}
+.bento{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.bx{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left;min-height:132px;padding:18px 18px 16px;background:var(--panel);border:0;border-bottom:6px solid var(--c,var(--red));cursor:pointer;color:var(--ink);font-family:var(--f-ui);overflow:hidden;transition:background .2s}
+.bx .ic{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:#fff;color:var(--ci,var(--red));margin-bottom:8px;transition:transform .25s}
+.bx .ic svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.bx .l{font-size:21px;font-weight:700;line-height:1.1}
+.bx .d{font-family:var(--f-text);font-size:13px;font-weight:400;line-height:1.4;color:var(--ink-2)}
+.bx:not(.feat)::after{content:"→";position:absolute;right:16px;top:16px;font-size:18px;color:var(--ci,var(--red));opacity:0;transform:translateX(-6px);transition:opacity .2s,transform .2s}
+.bx:hover{background:var(--panel-2)}
+.bx:hover .ic{transform:scale(1.08)}
+.bx:hover::after,.bx:focus-visible::after{opacity:1;transform:none}
+.bx:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.b-obr{--c:var(--obr);--ci:var(--obr-ink)}.b-esc{--c:var(--esc);--ci:var(--esc-ink)}.b-xar{--c:var(--xar);--ci:var(--xar-ink)}
+.bx.feat{grid-column:1/-1;min-height:200px;padding:24px;background:var(--night);color:#fff;border-bottom-color:var(--red);isolation:isolate}
+.bx.feat::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#16211F 0%,rgba(22,33,31,.92) 36%,rgba(22,33,31,0) 70%)}
+.bx.feat>span{position:relative;z-index:2}
+.bx.feat .ic{background:rgba(255,255,255,.1);color:#7FD3CC}
+.bx.feat .l{font-size:30px}
+.bx.feat .d{color:var(--night-mute);font-size:14px;max-width:26ch}
+.bx.feat .cta{margin-top:auto;font-family:var(--f-text);font-size:14px;font-weight:600;color:#fff;background:var(--red);padding:9px 14px;transition:background .2s}
+.bx.feat:hover{background:var(--night)}.bx.feat:hover .cta{background:var(--red-dk)}
+.bx.feat .bmap{position:absolute;z-index:0;right:-10%;top:50%;height:112%;width:auto;transform:translateY(-50%);pointer-events:none;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.bx.feat:hover .bmap{transform:translateY(-50%) scale(1.04)}
+@container (max-width:559px){.bx.feat .bmap{right:-34%;height:100%;opacity:.6}.bx.feat::before{background:linear-gradient(90deg,#16211F 0%,rgba(22,33,31,.88) 55%,rgba(22,33,31,.25) 100%)}}
+@container (min-width:560px){.bento{grid-template-columns:repeat(3,1fr)}}
+@container (min-width:780px){.bento{grid-template-columns:1.4fr repeat(3,1fr);grid-auto-rows:minmax(150px,auto)}
+ .bx.feat{grid-column:1;grid-row:1/span 2;min-height:0}
+ .bx.feat::before{background:linear-gradient(180deg,#16211F 0%,rgba(22,33,31,.9) 48%,rgba(22,33,31,0) 78%)}
+ .bx.feat .bmap{top:auto;bottom:-10%;right:-12%;height:auto;width:66%;transform:none}
+ .bx.feat:hover .bmap{transform:scale(1.04)}}
+@media (prefers-reduced-motion:reduce){.bx .ic,.bx.feat .bmap{transition:none}}
+
+/* ---------- xarxa (hero) ---------- */
+.net{background:var(--night);color:var(--night-ink);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:16px 32px;padding:44px 44px 28px;align-items:center;overflow:hidden;position:relative}
+.net::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 70% at 75% 45%,rgba(25,181,172,.16),transparent 70%);pointer-events:none}
+.net>*{position:relative}
+.net .eye{font-family:var(--f-ui);font-size:15px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#7FD3CC;margin:0 0 12px}
+.net h2{font-size:36px;line-height:1.15;font-weight:600;color:#fff;margin:0 0 16px}
+.net p{color:var(--night-mute);font-size:16px;max-width:52ch}
+.counts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--night-line);margin:24px 0;border:1px solid var(--night-line)}
+.counts div{background:var(--night);padding:14px 16px}
+.counts b{display:block;font-family:var(--f-ui);font-size:42px;line-height:1;font-weight:700;color:#fff;font-variant-numeric:tabular-nums}
+.counts span{font-size:13px;color:var(--night-mute)}
+.net .acts{display:flex;flex-wrap:wrap;gap:10px}
+.net svg{width:100%;height:auto;max-width:100%;display:block}
+.net .leg{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;font-size:12px;color:var(--night-mute);margin-top:6px}
+.net .leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.edge{stroke:#8FC7BE;stroke-opacity:.35;stroke-width:1.4;fill:none}
+.net.go .edge{stroke-dashoffset:var(--l);animation:draw 1.6s ease-out forwards;animation-delay:var(--d)}
+@keyframes draw{to{stroke-dashoffset:0}}
+.node{transform-box:fill-box;transform-origin:center}
+.net.go .node{opacity:0;animation:pop .5s ease-out forwards;animation-delay:var(--d)}
+@keyframes pop{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:scale(1)}}
+.halo{transform-box:fill-box;transform-origin:center;animation:halo 3.2s ease-out infinite;animation-delay:var(--d)}
+@keyframes halo{0%{opacity:.55;transform:scale(1)}80%,100%{opacity:0;transform:scale(3.2)}}
+
+/* ---------- rajoles ---------- */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px}
+.tile{display:flex;flex-direction:column;background:var(--panel);text-decoration:none;color:var(--ink);border-bottom:8px solid var(--c);transition:background .2s;overflow:hidden}
+.tile:hover{background:var(--panel-2);color:var(--ink)}
+.tile .im{overflow:hidden;height:200px}
+.tile img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.tile:hover img{transform:scale(1.06)}
+.tile .tb{padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+.tile .tt{font-family:var(--f-ui);font-size:24px;font-weight:700;line-height:1.15}
+.tile .td{font-size:14px;color:var(--ink-2);line-height:1.55}
+.tile .go{margin-top:auto;font-size:14px;font-weight:600;color:var(--cc)}
+.tile .go span{display:inline-block;transition:transform .2s}
+.tile:hover .go span{transform:translateX(5px)}
+.t-xar{--c:var(--xar);--cc:var(--xar-ink)} .t-esc{--c:var(--esc);--cc:var(--esc-ink)} .t-obr{--c:var(--obr);--cc:var(--obr-ink)}
+
+/* ---------- recorregut (scrollytelling) ---------- */
+.story{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:48px;align-items:start}
+.story .sfig{position:sticky;top:calc(env(safe-area-inset-top,0px) + 76px);height:min(560px,calc(100vh - 110px));overflow:hidden;background:var(--night)}
+.story .sfig img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.06);transition:opacity .8s ease,transform 1.6s ease}
+.story .sfig img.on{opacity:1;transform:scale(1)}
+.story .sfig .cap{position:absolute;z-index:2;left:0;right:0;bottom:0;padding:90px 24px 20px;background:linear-gradient(rgba(10,18,16,0),rgba(10,18,16,.88) 70%);color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.4);display:flex;align-items:flex-end;justify-content:space-between;gap:16px}
+.story .sfig .num{font-family:var(--f-ui);font-size:76px;font-weight:700;line-height:.85;opacity:.95;font-variant-numeric:tabular-nums}
+.story .sfig .lbl{font-family:var(--f-ui);font-size:20px;font-weight:600;text-align:right;max-width:24ch;line-height:1.2}
+.chain{position:absolute;z-index:2;top:18px;left:24px;right:24px;display:flex;gap:6px}
+.chain i{flex:1;height:4px;background:rgba(255,255,255,.28);transition:background .4s}
+.chain i.on{background:#fff}
+.steps-s{display:flex;flex-direction:column}
+.st{min-height:62vh;display:flex;flex-direction:column;justify-content:center;padding-block:24px;opacity:.35;transition:opacity .4s}
+.st.on{opacity:1}
+.st:first-child{min-height:40vh;justify-content:flex-start;padding-top:8px}
+.st:last-child{min-height:50vh}
+.st .k{font-family:var(--f-ui);font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--cc,var(--ink-3))}
+.st h3{font-size:26px;line-height:1.2;margin:6px 0 10px;font-weight:600}
+.st p{color:var(--ink-2);max-width:46ch}
+.st .stat{display:flex;gap:10px;align-items:baseline;margin-top:6px}
+.st .stat b{font-family:var(--f-ui);font-size:36px;font-weight:700;color:var(--cc,var(--ink));line-height:1}
+.st .stat span{font-size:13px;color:var(--ink-2)}
+
+/* ---------- mapa interactiu ---------- */
+.map-band{background:var(--panel);padding-block:44px}
+.map-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px 24px;margin-bottom:18px}
+.map-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:20px;align-items:start}
+.mapx{position:relative;background:var(--sea);border:1px solid var(--line);aspect-ratio:900/901;max-width:100%;overflow:hidden;touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab}
+.mapx.drag{cursor:grabbing}
+.mapx svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.mapx .mk{cursor:pointer}
+.mapx .mk:hover{filter:brightness(1.1)}
+.zoom{position:absolute;right:calc(10px + env(safe-area-inset-right,0px) * 0);top:10px;display:flex;flex-direction:column;background:var(--bg);border:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.zoom button{width:40px;height:40px;border:0;background:var(--bg);color:var(--ink);font-size:20px;font-weight:600;cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center}
+.zoom button+button{border-top:1px solid var(--line)}
+.zoom button:hover{background:var(--panel)}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:#fff;font-size:12px;line-height:1.35;padding:7px 10px;max-width:240px;transform:translate(-50%,calc(-100% - 12px));white-space:normal;z-index:3}
+.tip b{display:block;font-size:13px}
+.hint{position:absolute;inset:auto 0 0 0;margin:auto;bottom:12px;left:50%;transform:translateX(-50%);width:max-content;max-width:90%;background:rgba(31,31,31,.88);color:#fff;font-size:13px;padding:8px 14px;pointer-events:none;opacity:0;transition:opacity .25s}
+.hint.on{opacity:1}
+.panel{display:flex;flex-direction:column;gap:14px;min-width:0}
+.pcard{background:var(--bg);border:1px solid var(--line);padding:16px 18px}
+.pcard>.t{font-family:var(--f-ui);font-size:15px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--ink-2);margin:0 0 10px}
+.layer{display:flex;align-items:center;gap:10px;padding:6px 0;cursor:pointer;font-size:14px}
+.layer input{width:20px;height:20px;accent-color:var(--ink);margin:0}
+.layer .sw{width:14px;height:14px;flex:none}
+.layer em{font-style:normal;color:var(--ink-3);margin-left:auto;font-variant-numeric:tabular-nums}
+.cov{display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--line);margin-top:8px;padding-top:12px}
+.seg{display:inline-flex;border:1px solid #8C8C8C}
+.seg button{font-family:inherit;font-size:13px;font-weight:600;padding:8px 12px;border:0;background:var(--bg);color:var(--ink);cursor:pointer;min-height:36px}
+.seg button+button{border-left:1px solid #8C8C8C}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.range{display:flex;align-items:center;gap:12px}
+.range input{flex:1;accent-color:var(--gap)}
+.range output{font-family:var(--f-ui);font-size:22px;font-weight:700;min-width:62px;text-align:right;font-variant-numeric:tabular-nums}
+.covstat{display:flex;gap:12px;align-items:center;background:#FBEDE6;padding:10px 12px}
+.covstat b{white-space:nowrap;font-family:var(--f-ui);font-size:32px;font-weight:700;line-height:1;color:var(--gap);font-variant-numeric:tabular-nums}
+.covstat span{font-size:13px;color:var(--ink-2);line-height:1.4}
+.ramp{height:10px;background:linear-gradient(90deg,rgba(0,161,154,.75),rgba(0,161,154,.15) 85%,rgba(217,83,30,.55) 85%)}
+.ramp-l{display:flex;justify-content:space-between;font-size:11px;color:var(--ink-3)}
+.panel input[type=search]{font-family:inherit;font-size:15px;padding:10px 12px;border:1px solid #8C8C8C;min-height:44px;width:100%;background:var(--bg);color:var(--ink)}
+.list{list-style:none;margin:8px 0 0;padding:0;max-height:300px;overflow-y:auto;border-top:1px solid var(--line)}
+.list button{all:unset;box-sizing:border-box;width:100%;cursor:pointer;padding:9px 4px;display:flex;gap:10px;align-items:flex-start;border-bottom:1px solid #EFEFEF}
+.list button:hover,.list button[aria-pressed="true"]{background:#F7F7F7}
+.list button:focus-visible{outline:3px solid #1F6FEB;outline-offset:-3px}
+.list .n{font-size:14px;font-weight:600;line-height:1.35;display:block}
+.list .m{font-size:12px;color:var(--ink-2);display:block}
+.fitxa{border-left:6px solid var(--fc);background:var(--bg);border-top:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 18px;animation:slide .3s ease-out}
+@keyframes slide{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.fitxa .k{font-family:var(--f-ui);font-size:14px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--fc)}
+.fitxa h3{margin:4px 0 6px}
+.fitxa p{margin:0 0 2px;font-size:14px}
+.fitxa .x{font-family:inherit;font-size:13px;font-weight:600;color:var(--red);background:none;border:0;padding:8px 0 0;cursor:pointer}
+
+/* ---------- cercador ---------- */
+.finder{border:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}
+.finder .q{padding:28px;border-right:1px solid var(--line);display:flex;flex-direction:column;gap:18px}
+.finder .r{padding:28px;background:var(--panel);min-width:0}
+.step-l{font-family:var(--f-ui);font-size:15px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--ink-2);margin:0 0 8px}
+.opts{display:grid;gap:8px}
+.opt{all:unset;box-sizing:border-box;cursor:pointer;display:flex;gap:14px;align-items:center;padding:12px 14px;border:2px solid var(--line);background:var(--bg);transition:border-color .15s,background .15s}
+.opt:hover{border-color:#B9B9B9}
+.opt[aria-checked="true"]{border-color:var(--c);background:var(--c-soft)}
+.opt:focus-visible{outline:3px solid #1F6FEB;outline-offset:2px}
+.opt .sw{flex:none;width:8px;align-self:stretch;background:var(--c)}
+.opt b{display:block;font-size:15px}
+.opt span span{font-size:13px;color:var(--ink-2)}
+.mini{position:relative;cursor:crosshair;border:1px solid var(--line);background:var(--sea);max-width:100%}
+.mini svg{display:block;width:100%;height:auto}
+.finder select{font-family:inherit;font-size:15px;min-height:44px;padding:0 10px;border:1px solid #8C8C8C;background:var(--bg);color:var(--ink);width:100%}
+.res-h{font-family:var(--f-ui);font-size:22px;font-weight:700;margin:0 0 4px}
+.near{list-style:none;margin:12px 0 18px;padding:0;display:flex;flex-direction:column;gap:6px}
+.near li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;background:var(--bg);padding:10px 14px;border-left:4px solid var(--c);animation:slide .35s ease-out both}
+.near li:nth-child(2){animation-delay:.05s}.near li:nth-child(3){animation-delay:.1s}.near li:nth-child(4){animation-delay:.15s}
+.near b{font-size:14px;display:block;line-height:1.35}
+.near small{font-size:12px;color:var(--ink-2)}
+.near .km{font-family:var(--f-ui);font-size:20px;font-weight:700;color:var(--cc);white-space:nowrap;font-variant-numeric:tabular-nums}
+.next{display:grid;gap:6px}
+.next a,.next div{display:flex;justify-content:space-between;gap:12px;align-items:center;background:var(--bg);padding:12px 14px;text-decoration:none;color:var(--ink);font-size:14px;border:1px solid var(--line)}
+.next a:hover{border-color:var(--ink-3)}
+.next em{font-style:normal;font-size:12px;color:var(--ink-3);white-space:nowrap}
+
+/* ---------- xifres i fitxes ---------- */
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px}
+.fig{background:var(--panel);padding:16px 18px}
+.fig b{display:block;font-family:var(--f-ui);font-size:36px;line-height:1.05;font-weight:700;font-variant-numeric:tabular-nums}
+.fig span{font-size:13px;color:var(--ink-2);line-height:1.4;display:block;margin-top:4px}
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:32px;align-items:center;padding-bottom:32px}
+.hero .ph{overflow:hidden;border-bottom:8px solid var(--c)}
+.hero img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;max-width:100%;animation:kb 18s ease-in-out infinite alternate}
+@keyframes kb{from{transform:scale(1)}to{transform:scale(1.08) translate(-1%,-1%)}}
+.hero .tag{display:inline-block;font-family:var(--f-ui);font-weight:700;font-size:15px;letter-spacing:.5px;text-transform:uppercase;color:var(--cc);margin-bottom:8px}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.chk{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:8px 24px}
+.chk li{position:relative;padding-left:26px}
+.chk li::before{content:"";position:absolute;left:2px;top:7px;width:12px;height:12px;border-radius:2px;background:var(--c,var(--red))}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px}
+.steps li{counter-increment:s;background:var(--panel);padding:16px 18px 18px;border-top:4px solid var(--c,var(--red))}
+.steps li::before{content:counter(s);display:block;font-family:var(--f-ui);font-size:28px;font-weight:700;line-height:1;color:var(--cc,var(--red));margin-bottom:8px}
+.steps li b{display:block;margin-bottom:4px}
+.steps li span{font-size:14px;color:var(--ink-2)}
+.grid-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px}
+.gc{border:1px solid var(--line);padding:16px 18px;transition:border-color .2s,transform .2s}
+.gc:hover{border-color:var(--c,var(--ink-3));transform:translateY(-2px)}
+.gc .k{font-family:var(--f-ui);font-size:14px;font-weight:700;letter-spacing:.5px;color:var(--cc,var(--red));text-transform:uppercase;display:block;margin-bottom:2px}
+.gc p{margin:0;font-size:14px;color:var(--ink-2)}
+.models{width:100%;border-collapse:collapse;font-size:14px}
+.models th{text-align:left;font-weight:600;padding:12px 16px 12px 0;vertical-align:top;width:190px;border-bottom:1px solid var(--line)}
+.models td{padding:12px 0;border-bottom:1px solid var(--line);color:var(--ink-2)}
+.temps{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.temps div{background:var(--c-soft);padding:14px 16px;position:relative;overflow:hidden}
+.temps b{display:block;font-family:var(--f-ui);font-size:32px;font-weight:700;line-height:1;color:var(--cc);font-variant-numeric:tabular-nums}
+.temps span{font-size:13px;color:var(--ink-2)}
+.v-obr{--c:var(--obr);--cc:var(--obr-ink);--c-soft:var(--obr-soft)}
+.v-esc{--c:var(--esc);--cc:var(--esc-ink);--c-soft:var(--esc-soft)}
+.v-xar{--c:var(--xar);--cc:var(--xar-ink);--c-soft:var(--xar-soft)}
+.callout{background:var(--warn-bg);padding:18px 20px}
+.callout p:last-child{margin:0}
+
+/* ---------- tràmits ---------- */
+.tram{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:24px;align-items:start}
+.tram-l{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.tram-l li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px;align-items:start;background:var(--panel);padding:14px 16px;border-left:4px solid transparent;transition:border-color .2s,background .2s}
+.tram-l li.done{border-left-color:var(--c);background:var(--c-soft)}
+.tram-l input{width:22px;height:22px;margin:2px 0 0;accent-color:var(--cc)}
+.tram-l label{cursor:pointer}
+.tram-l b{display:block;font-size:15px}
+.tram-l span{font-size:13px;color:var(--ink-2);display:block}
+.tram-l em{font-style:normal;font-size:12px;font-weight:600;color:var(--cc);display:block;margin-top:2px}
+.tram-l li.done b{text-decoration:line-through;text-decoration-color:var(--cc)}
+.tram-side{position:sticky;top:90px;border:1px solid var(--line);padding:20px;display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center}
+.ring{width:150px;height:150px}
+.ring circle{fill:none;stroke-width:12}
+.ring .bgc{stroke:var(--panel-2)}
+.ring .fg{stroke:var(--c);stroke-linecap:round;transform:rotate(-90deg);transform-origin:center;transition:stroke-dashoffset .6s cubic-bezier(.2,.7,.2,1)}
+.ring text{font-family:var(--f-ui);font-weight:700;fill:var(--ink)}
+.cond{display:flex;flex-direction:column;gap:6px;text-align:left;width:100%;border-top:1px solid var(--line);padding-top:12px;font-size:13px}
+.cond label{display:flex;gap:8px;align-items:flex-start;cursor:pointer}
+.cond input{margin-top:3px;accent-color:var(--cc)}
+
+/* ---------- autodiagnosi ---------- */
+.quiz{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:0;border:1px solid var(--line)}
+.quiz .qs{padding:24px;display:flex;flex-direction:column;gap:20px;border-right:1px solid var(--line)}
+.qg legend{font-family:var(--f-ui);font-size:16px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:var(--ink-2);margin:0 0 8px;padding:0}
+.qg{border:0;margin:0;padding:0}
+.qg .row{display:flex;flex-wrap:wrap;gap:6px}
+.qg label{position:relative}
+.qg input{position:absolute;opacity:0;width:1px;height:1px}
+.qg span{display:inline-flex;align-items:center;min-height:38px;padding:0 14px;border:1px solid #9A9A9A;font-size:14px;cursor:pointer;transition:background .15s,border-color .15s,color .15s;background:var(--bg)}
+.qg input:checked+span{background:var(--xar-ink);border-color:var(--xar-ink);color:#fff}
+.qg input:focus-visible+span{outline:3px solid #1F6FEB;outline-offset:2px}
+.quiz .out{padding:24px;background:var(--xar-soft);display:flex;flex-direction:column;gap:14px;min-width:0}
+.quiz .out .k{font-family:var(--f-ui);font-size:14px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--xar-ink)}
+.quiz .out h3{font-family:var(--f-ui);font-size:30px;line-height:1.05;font-weight:700;margin:2px 0 6px}
+.sbar{display:grid;grid-template-columns:110px minmax(0,1fr);gap:10px;align-items:center;font-size:13px;margin:3px 0}
+.sbar i{display:block;height:10px;background:var(--xar);transition:width .5s cubic-bezier(.2,.7,.2,1)}
+.sbar .tr{background:rgba(255,255,255,.7);height:10px}
+.prio{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:14px}
+.prio li{background:var(--bg);padding:9px 12px;border-left:3px solid var(--xar)}
+
+/* ---------- experiències ---------- */
+.exp-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:16px}
+.exp-nav{display:flex;gap:6px}
+.exp-nav button{width:44px;height:44px;border:1px solid #8C8C8C;background:var(--bg);font-size:18px;cursor:pointer;color:var(--ink)}
+.exp-nav button:hover{background:var(--panel)}
+.exp-track{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,360px);gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;scrollbar-width:thin}
+.exp{scroll-snap-align:start;background:var(--panel);display:flex;flex-direction:column;border-top:6px solid var(--obr)}
+.exp .top{padding:20px 22px 0}
+.exp .loc{font-size:12px;font-weight:600;color:var(--ink-3);text-transform:uppercase;letter-spacing:.5px}
+.exp h3{font-family:var(--f-ui);font-size:22px;font-weight:700;line-height:1.15;margin:6px 0 8px}
+.exp p{font-size:14px;color:var(--ink-2);margin:0 22px 14px}
+.exp dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:auto 0 0;border-top:1px solid var(--line)}
+.exp dl div{padding:12px 14px}
+.exp dl div+div{border-left:1px solid var(--line)}
+.exp dt{font-size:11px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.4px}
+.exp dd{margin:0;font-family:var(--f-ui);font-size:20px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
+.exp .lnk{padding:0 22px 16px;font-size:13px}
+.exp.intl{border-top-color:var(--ink-3)}
+
+/* ---------- ajuts ---------- */
+.ajut{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:24px;background:var(--c-soft);padding:24px}
+.ajut .big{font-family:var(--f-ui);font-size:44px;font-weight:700;line-height:1;color:var(--cc);font-variant-numeric:tabular-nums}
+.ajut .sm{font-size:13px;color:var(--ink-2)}
+.ajut ul{margin:8px 0 0;padding-left:18px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.conv{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);margin-top:16px;border:1px solid var(--line)}
+.conv div{background:var(--bg);padding:10px 12px;font-size:13px;color:var(--ink-2)}
+.conv b{display:block;font-size:16px;color:var(--ink);font-variant-numeric:tabular-nums}
+.ajg{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:32px;align-items:center}
+.stack{display:grid;grid-template-columns:120px minmax(0,1fr) 110px;gap:12px;align-items:center;font-size:14px;padding:10px 0}
+.stack .tr{display:flex;height:28px;background:var(--panel)}
+.stack .tr i{display:block;height:100%}
+.stack b{text-align:right;font-variant-numeric:tabular-nums;font-size:15px}
+.donut{display:flex;gap:20px;align-items:center}
+.donut svg{flex:none;width:150px;height:150px}
+.donut .ring-fg{transform:rotate(-90deg);transform-origin:center}
+@supports (animation-timeline: view()){
+  .donut .ring-fg{animation:dash linear both;animation-timeline:view();animation-range:entry 20% cover 40%}
+  @keyframes dash{from{stroke-dashoffset:var(--full)}}
+}
+
+/* ---------- eines, guies, acord ---------- */
+.doc{display:flex;gap:20px;align-items:center;border:1px solid var(--line);padding:18px 20px;transition:border-color .2s}
+.doc:hover{border-color:#B0B0B0}
+.doc .ic{flex:none;width:48px;height:60px;background:var(--c,var(--red));color:#fff;font-family:var(--f-ui);font-weight:700;font-size:14px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:6px;clip-path:polygon(0 0,72% 0,100% 22%,100% 100%,0 100%)}
+.doc .ic.off{background:#B5B5B5}
+.doc h3{margin:0 0 2px}
+.doc p{margin:0;font-size:13px;color:var(--ink-2)}
+.doc .btn{margin-left:auto;flex:none}
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:8px}
+.tool{display:flex;flex-direction:column;gap:8px;padding:22px;background:var(--panel);text-decoration:none;color:var(--ink);border-top:4px solid var(--ink);transition:background .2s,transform .2s}
+.tool:hover{background:var(--panel-2);color:var(--ink);transform:translateY(-3px)}
+.tool .k{font-family:var(--f-ui);font-size:23px;font-weight:700;line-height:1.1}
+.tool p{margin:0;font-size:14px;color:var(--ink-2)}
+.tool .u{margin-top:auto;font-size:13px;font-weight:600;color:var(--red)}
+.hz{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.hz li{padding:0 20px 0 0}
+.hz li::before{content:"";display:block;height:4px;background:var(--red);margin-bottom:16px;opacity:var(--o)}
+.hz .k{font-family:var(--f-ui);font-size:15px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--red)}
+.hz p{font-size:14px;color:var(--ink-2);margin:4px 0 0}
+.related{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:8px}
+.related a{display:block;padding:18px 20px;background:var(--panel);border-left:6px solid var(--c);text-decoration:none;color:var(--ink);font-family:var(--f-ui);font-size:20px;font-weight:700;transition:background .2s}
+.related a:hover{background:var(--panel-2)}
+.related small{display:block;font-family:var(--f-text);font-size:13px;font-weight:400;color:var(--ink-2)}
+footer{background:var(--bar);color:#E6E6E6;margin-top:56px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;padding-block:28px;font-size:13px}
+footer .wrap{padding-right:76px}
+.fbrand{display:flex;align-items:center;gap:20px;flex-wrap:wrap}.fbrand img{height:34px;width:auto}
+
+@media (max-width:900px){
+  .net,.finder,.hero,.ajut,.map-grid,.quiz,.tram,.ajg{grid-template-columns:1fr}
+  .net{padding:28px 20px}
+  .finder .q,.quiz .qs{border-right:0;border-bottom:1px solid var(--line)}
+  .hz{grid-template-columns:1fr;gap:20px}
+  .story{grid-template-columns:1fr;gap:0}
+  .story .sfig{height:42vh;top:calc(env(safe-area-inset-top,0px) + 56px);z-index:2}
+  .story .sfig .num{font-size:52px}
+  .st{min-height:56vh;opacity:1}
+  .tram-side{position:static}
+}
+@media (max-width:560px){
+  h1{font-size:28px}.net h2{font-size:28px}
+  nav.main{font-size:16px}nav.main a{padding:6px 10px 8px}
+  .stack{grid-template-columns:86px minmax(0,1fr) 92px}
+  .models th{width:120px}
+  .doc{flex-wrap:wrap}.doc .btn{margin-left:0}
+  .finder .q,.finder .r,.quiz .qs,.quiz .out{padding:20px}
+  .counts b{font-size:34px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}
+  .story .sfig img{transform:none}
+}
+
+/* franja de contacte */
+.cta-band{margin-top:56px}
+.cta-in{display:flex;align-items:center;gap:24px;flex-wrap:wrap;padding:28px 32px;background:var(--panel);border-left:8px solid var(--red)}
+.cta-in>div{flex:1 1 420px}
+.cta-in h2{margin:0 0 6px;font-size:24px}
+.cta-in p{margin:0;color:var(--ink-2);max-width:70ch}
+.cta-ic{flex:none;display:grid;place-items:center;width:56px;height:56px;border-radius:50%;background:#fff;color:var(--red)}
+.cta-ic svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.cta-band+footer{margin-top:56px}
+@media (max-width:560px){.cta-in{padding:22px 20px}.cta-in h2{font-size:21px}}
+/* torna a dalt */
+.totop{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:max(16px,env(safe-area-inset-bottom,0px));z-index:40;display:grid;place-items:center;width:48px;height:48px;border-radius:50%;border:0;background:var(--ink);color:#fff;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.2);opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .25s,transform .25s,background .2s}
+.totop.on{opacity:1;pointer-events:auto;transform:none}
+.totop:hover{background:var(--red)}
+.totop svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+@media (prefers-reduced-motion:reduce){.totop{transition:none}}
+/* enllaç al mapa des de les pàgines d'infraestructura */
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:8px 0 0;padding:22px 24px;background:var(--night);color:#fff;text-decoration:none;border-bottom:6px solid var(--c,var(--red))}
+.maplink b{display:block;font-family:var(--f-ui);font-size:22px;margin-bottom:4px}
+.maplink span span{color:var(--night-mute);font-size:14px}
+.maplink .btn{flex:none}
+.maplink:hover{background:var(--night-2)}
+/* taula i dades obertes */
+.dataset{margin-top:20px;display:flex;flex-direction:column;gap:12px}
+.dataset details{background:var(--bg);border:1px solid var(--line)}
+.dataset summary{cursor:pointer;padding:14px 18px;font-weight:600;font-size:15px;list-style-position:inside}
+.dataset summary:hover{background:var(--panel)}
+.tblw{overflow-x:auto;max-height:560px;overflow-y:auto;border-top:1px solid var(--line)}
+.tbl{width:100%;border-collapse:collapse;font-size:13px;min-width:720px}
+.tbl caption{text-align:left;font-size:12px;color:var(--ink-3);padding:10px 18px}
+.tbl th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:600;padding:9px 12px;border-bottom:1px solid var(--line)}
+.tbl td{padding:8px 12px;border-bottom:1px solid #EFEFEF;vertical-align:top}
+.tbl td a{font-size:12px;margin-left:6px;white-space:nowrap}
+.dataset details>.small{padding:0 18px 12px;margin:8px 0 0}
+.dl{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;font-size:14px}
+.dl>span:first-child{font-weight:600}
+.dl a{font-weight:600}
+/* preguntes freqüents */
+.faq-q{list-style:none;margin:16px 0 0;padding:0;border-top:1px solid var(--line);max-width:880px}
+.faq-q li{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:16px 4px;border-bottom:1px solid var(--line);font-size:17px;font-weight:600;line-height:1.35;color:var(--ink)}
+.faq-q li::after{content:"En preparació";flex:none;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--warn-ink);background:var(--warn-bg);padding:4px 10px;border-radius:3px}
+.faq{border-top:1px solid var(--line);max-width:880px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center;padding:18px 4px;font-size:17px;font-weight:600;line-height:1.35}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";flex:none;width:32px;height:32px;border-radius:50%;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:400;color:var(--red);transition:transform .2s}
+.faq details[open] summary::after{content:"−"}
+.faq summary:hover{color:var(--red)}
+.faq .ans{padding:0 48px 18px 4px;color:var(--ink-2);max-width:72ch}
+.faq .ans p{margin:0 0 10px}
+</style>
+
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<div class="note-bar" role="note">Maqueta de treball · Proposta de nova secció d'Infraestructures alimentàries compartides de RuralCat · No és la web oficial</div>
+
+<header class="top">
+  <div class="brandrow"><div class="wrap top-row">
+    <a href="index.html" aria-label="RuralCat, pàgina d'inici"><img class="lg-rc" src="logo-ruralcat.png" alt="RuralCat" width="489" height="176"></a>
+    <a href="https://web.gencat.cat/ca/inici" target="_blank" rel="noopener"><img class="lg-gc" src="logo-generalitat.png" alt="Generalitat de Catalunya" width="896" height="231"></a>
+  </div></div>
+  <div class="navband"><div class="wrap">
+    <nav class="main" aria-label="Menú principal">
+      <div><a href="index.html">Inici</a><a href="index.html">Informació</a><a href="index.html">Formació i Transferència</a><a href="index.html">Eines i Serveis</a><a href="index.html">Qui som?</a></div>
+      <div><a href="index.html">Subscripcions</a><a href="index.html">Accedeix</a></div>
+    </nav>
+  </div></div>
+</header>
+
+<div class="wrap">
+  <nav class="crumb" aria-label="Molla de pa"><a href="index.html">Inici</a><span>›</span><a href="index.html">Suport a la Indústria Agroalimentària</a><span>›</span><a href="index.html">Infraestructures compartides</a><span>›</span><span aria-current="page">Escorxadors de baixa capacitat</span></nav>
+  <div class="sect">
+    <div class="sect-name">
+      <svg width="30" height="24" viewBox="0 0 30 24" aria-hidden="true"><path d="M2 12 L8 5 L15 10 L22 3 L28 9" fill="none" stroke="#7A9A2E" stroke-width="2"/><path d="M1 16h28M1 19h28M1 22h28" stroke="#7A9A2E" stroke-width="2"/></svg>
+      <span>Suport a la Indústria<br>Agroalimentària</span>
+    </div>
+    <nav aria-label="Suport a la Indústria Agroalimentària">
+      <a href="index.html">Tràmits</a><a href="index.html">Normativa</a><a href="index.html">Sequera</a><a href="index.html">Llotges/Observatoris</a><a href="index.html" aria-current="page">Infraestructures compartides</a><a href="index.html">Contacte</a>
+    </nav>
+  </div>
+</div>
+
+<main class="page v-esc" data-page="escorxadors">
+  <div class="wrap">
+  <h1>Escorxadors de baixa capacitat</h1>
+  <div class="hero">
+    <div class="ph"><img src="escorxador.webp" width="1200" height="1200" fetchpriority="high" decoding="async" alt="Treballador amb roba de protecció trasllada canals en una sala d'escorxador" style="object-position:50% 35%"></div>
+    <div>
+      <span class="tag">Sacrifici de proximitat</span>
+      <p class="lead">Els escorxadors de baixa capacitat són equipaments essencials per garantir el sacrifici de proximitat, especialment en territoris rurals i de muntanya, i per assegurar la viabilitat de les explotacions ramaderes de petita i mitjana dimensió.</p>
+      <p>Redueixen el temps de transport del bestiar, contribueixen al benestar animal i permeten valoritzar la producció local en circuits curts de comercialització.</p>
+    </div>
+  </div>
+
+  <section class="block">
+    <h2>Tipologies</h2>
+    <p class="prose">La guia de bones pràctiques d'higiene per a petits escorxadors, en elaboració, distingeix tres tipus d'instal·lacions:</p>
+    <ul class="icl"><li><span class="ii"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"/></svg></span><span>Petits escorxadors fixos i modulars</span></li><li><span class="ii"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></span><span>Escorxadors mòbils</span></li><li><span class="ii"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 8.35V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.35A2 2 0 0 1 3.26 6.5l8-3.2a2 2 0 0 1 1.48 0l8 3.2A2 2 0 0 1 22 8.35Z"/><path d="M6 18h12"/><path d="M6 14h12"/><rect x="6" y="10" width="12" height="12"/></svg></span><span>Escorxadors situats en explotacions ramaderes</span></li></ul>
+  </section>
+
+  <section class="block">
+    <h2>Estructura de suport</h2>
+    <p class="prose">El Departament treballa en una estructura de suport als escorxadors de baixa capacitat per donar resposta a les principals dificultats identificades pel sector.</p>
+    <div class="grid-cards">
+      <div class="gc"><span class="gi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M10 11v6"/><path d="M14 11v6"/></svg></span><span class="k">Gestió de subproductes</span><p>Classificació i retirada dels subproductes animals no destinats a consum humà (SANDACH) i dels residus.</p></div>
+      <div class="gc"><span class="gi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8"/><path d="M8 13h5"/></svg></span><span class="k">Assessorament especialitzat</span><p>Acompanyament tècnic i normatiu adaptat a la petita escala.</p></div>
+      <div class="gc"><span class="gi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span><span class="k">Professionals matancers</span><p>Resposta a la manca de personal qualificat en sacrifici i feinejat.</p></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <p style="margin-bottom:10px"><span class="badge">En elaboració</span></p>
+    <h2>Guia de bones pràctiques d'higiene per a petits escorxadors, escorxadors mòbils i escorxadors d'explotació</h2>
+    <p class="prose">Guia per facilitar la implantació de sistemes d'autocontrol basats en l'Anàlisi de Perills i Punts de Control Crítics (APPCC), adaptats a la dimensió dels petits operadors i amb els criteris de flexibilitat que preveu la normativa europea. S'aplica al sacrifici d'ungulats: oví i cabrum, porcí, boví i equí.</p>
+    <h3 style="margin-top:22px">Procediment d'adhesió</h3>
+    <ol class="steps" style="margin-bottom:28px">
+      <li><b>Compromís d'acolliment</b><span>La persona responsable de l'escorxador signa el compromís i hi indica les espècies que sacrifica.</span></li>
+      <li><b>Implantació</b><span>L'escorxador aplica el programa de prerequisits i el sistema APPCC i en conserva els registres.</span></li>
+    </ol>
+    <h3>Programa de prerequisits</h3>
+    <p class="prose" style="color:var(--ink-3);margin-bottom:28px">Properament.</p>
+    <h3>Temperatures de referència</h3>
+    <div class="temps">
+      <div class="rv"><b>≤ 7 °C</b><span>cambres de canals</span></div>
+      <div class="rv"><b>≤ 3 °C</b><span>vísceres i subproductes</span></div>
+      <div class="rv"><b>≤ 12 °C</b><span>sales d'especejament</span></div>
+      <div class="rv"><b>≥ 82 °C</b><span>esterilitzadors</span></div>
+    </div>
+    <p class="prose" style="margin-top:20px">La guia incorpora també un pla de benestar animal, amb la formació inicial a càrrec dels serveis veterinaris oficials, i un pla de control analític que permet acollir-se a la reducció de freqüències de mostratge.</p>
+    <div class="doc" style="margin-top:20px"><span class="ic off">PDF</span><div><h3>Guia de bones pràctiques d'higiene per a petits escorxadors</h3><p>Es publicarà un cop aprovada</p></div><span class="btn ghost">Properament</span></div>
+  </section>
+
+  <section class="block" id="s-ajuts"><p class="eyebrow" style="color:var(--cc)">Ajuts</p><h2>Ajuts per a petits escorxadors i establiments de manipulació de caça</h2><div class="ajut"><div><div class="big">3.498.016 €</div><p class="sm">d'ajut concedit en el marc del PEAC (línia 2.2)</p><div class="conv"><div>1a convocatòria<b>588.257,00 €</b></div><div>2a convocatòria<b>2.909.758,91 €</b>18 projectes</div></div></div><div><p style="margin:0 0 4px;font-weight:600">Actuacions subvencionables</p><p style="font-size:14px;color:var(--ink-2)">Inversions en instal·lacions i maquinària, estudis de viabilitat, assessorament tècnic i dinamització.</p><p style="margin:14px 0 0;font-weight:600">Resultats de l'avaluació 2025-2026</p><ul><li>Cinc de cada set projectes avaluats ja disposen d&#x27;una infraestructura nova o millorada en funcionament.</li><li>Més de la meitat assenyalen un millor accés territorial al servei de sacrifici.</li><li>Es registren millores en traçabilitat, qualitat, seguretat alimentària i benestar animal.</li></ul><p class="sm" style="margin:12px 0 0">El Departament prepara unes noves bases reguladores. La propera convocatòria es publicarà en aquest espai.</p></div></div></section>
+  </div>
+  <div class="wrap"><a class="maplink" style="--c:var(--esc)" href="index.html?mapa=escorxadors#s-mapa"><span><b>Mapa d'infraestructures compartides</b><span>Consulteu la ubicació dels escorxadors al mapa interactiu de la pàgina principal.</span></span><span class="btn">Obre el mapa →</span></a></div><div class="wrap"><section class="block" id="s-faq" aria-labelledby="faq-t"><p class="eyebrow">Preguntes freqüents</p><h2 id="faq-t">Dubtes habituals sobre els escorxadors de baixa capacitat</h2><p class="prose" style="color:var(--ink-2)">Apartat en preparació: les respostes es publicaran properament.</p><ul class="faq-q"><li>Què és un escorxador de baixa capacitat?</li><li>Què és la guia de bones pràctiques d&#x27;higiene per a petits escorxadors?</li><li>Quines temperatures de referència fixa la guia?</li><li>Cada quan s&#x27;ha de formar el personal de l&#x27;escorxador?</li><li>Quins ajuts hi ha per a petits escorxadors?</li></ul></section></div>
+</main>
+<div class="wrap"><section class="block"><h2>Altres infraestructures compartides</h2><div class="related"><a href="obradors.html" style="--c:var(--obr)">Obradors compartits<small>Transformació alimentària</small></a><a href="xarxes.html" style="--c:var(--xar)">Xarxes de distribució<small>Logística col·laborativa</small></a></div></section></div>
+<section class="cta-band" aria-labelledby="cta-t"><div class="wrap"><div class="cta-in"><span class="cta-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span><div><h2 id="cta-t">Teniu un projecte d'infraestructura alimentària compartida?</h2><p>Per a informació sobre ajuts, normativa i recursos disponibles, adreceu-vos al Departament d'Agricultura, Ramaderia, Pesca i Alimentació.</p></div><a class="btn" href="index.html">Contacteu-nos</a></div></div></section>
+<footer><div class="wrap"><span class="fbrand"><img src="logo-generalitat-blanc.png" alt="Generalitat de Catalunya" width="896" height="231"><span>Departament d'Agricultura, Ramaderia, Pesca i Alimentació</span></span><span>Avís legal · Accessibilitat · Contacte</span></div></footer>
+<button type="button" class="totop" aria-label="Torna a dalt" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg></button>
+<script>
+(function(){var b=document.querySelector(".totop"),rm=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches,on=false;
+ function u(){var s=window.scrollY>window.innerHeight*1.2;if(s!==on){on=s;b.classList.toggle("on",s);b.tabIndex=s?0:-1;b.setAttribute("aria-hidden",String(!s))}}
+ b.setAttribute("aria-hidden","true");window.addEventListener("scroll",u,{passive:true});u();
+ b.addEventListener("click",function(){window.scrollTo({top:0,behavior:rm?"auto":"smooth"});var h=document.querySelector("h1");if(h){h.setAttribute("tabindex","-1");h.focus({preventScroll:true})}});
+})();
+</script>
+
+<script>
+window.P_DATA = [["e", "Escorxador municipal d'Alcover", "Alcover", "Alt Camp", 32.39, 67.1, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Coll-Verd, Productes de l'Anec, SA", "Vilamalla", "Alt Empordà", 87.34, 28.11, "aviram, palmípedes", "Actiu", "", 0], ["e", "Escorxador Vila de l'Armentera, SL", "l'Armentera", "Alt Empordà", 90.1, 30.27, "boví, oví i cabrum, porcí", "Actiu", "", 0], ["e", "Escorxador municipal de Peralada", "Peralada", "Alt Empordà", 88.13, 24.88, "oví i cabrum", "Actiu", "", 0], ["e", "Carns Can Cartró, SL", "Subirats", "Alt Penedès", 51.3, 62.29, "oví i cabrum", "Actiu", "", 0], ["e", "Olivella Cruz, Montserrat", "Castellví de la Marca", "Alt Penedès", 45.25, 64.34, "aviram, palmípedes", "Actiu", "", 0], ["e", "Escorxador l'Alt Urgell SCP", "Oliana", "Alt Urgell", 36.61, 34.49, "oví i cabrum", "Actiu", "", 0], ["e", "Mafriseu SA", "la Seu d'Urgell", "Alt Urgell", 40.98, 22.42, "boví, oví i cabrum, porcí, aviram", "Actiu", "", 0], ["e", "Masana Grau, Matilde", "la Seu d'Urgell", "Alt Urgell", 41.07, 22.99, "conills", "Actiu", "", 0], ["e", "Matadero de Aves Guiu", "la Seu d'Urgell", "Alt Urgell", 41.04, 22.99, "boví, oví i cabrum, aviram", "Actiu", "", 0], ["e", "Escorxador Comarcal", "el Pont de Suert", "Alta Ribagorça", 19.47, 20.77, "boví, oví i cabrum, porcí", "Actiu", "", 0], ["e", "Porté Estop, José Luís", "Vilaller", "Alta Ribagorça", 18.61, 18.12, "oví i cabrum", "Actiu", "", 0], ["e", "Escorxador municipal de Sant Martí Sesgueioles", "Sant Martí Sesgueioles", "Anoia", 42.08, 49.37, "porcí", "Actiu", "", 0], ["e", "Escorxador municipal de Santa Margarida de Montbui", "Santa Margarida de Montbui", "Anoia", 45.6, 55.18, "oví i cabrum", "Actiu", "", 0], ["e", "Els Plans de Cornet, SCP", "Sallent", "Bages", 54.36, 44.28, "", "Actiu", "", 1], ["e", "Tatjé de Viladordis", "Manresa", "Bages", 53.37, 48.44, "aviram, conills", "Actiu", "", 0], ["e", "Conills Pages, SL", "Reus", "Baix Camp", 30.24, 72.55, "conills", "Actiu", "", 0], ["e", "Baldo Pallarés, SA", "el Perelló", "Baix Ebre", 17.2, 81.67, "conills", "Actiu", "", 0], ["e", "Empresa Mixta Escorxador de Tortosa, SL", "Tortosa", "Baix Ebre", 12.74, 85.36, "boví, oví i cabrum, porcí, equí", "Actiu", "", 0], ["e", "Granja Luisiana, SL", "Deltebre", "Baix Ebre", 20.16, 89.63, "aviram", "Actiu", "", 0], ["e", "Escorxador municipal de la Bisbal d'Empordà", "la Bisbal d'Empordà", "Baix Empordà", 89.03, 38.86, "", "Actiu", "", 1], ["e", "Fribel", "Verges", "Baix Empordà", 89.36, 34.61, "boví, oví i cabrum", "Actiu", "", 0], ["e", "Mir CB", "Cruïlles, Monells i Sant Sadurní de l'Heura", "Baix Empordà", 87.56, 38.94, "porcí, ungulats", "Actiu", "", 0], ["e", "Carnissers de Berga, SCCL", "Berga", "Berguedà", 53.29, 33.08, "boví, oví i cabrum", "Actiu", "", 0], ["e", "L'Ànec 5 Aglans SCP", "Santa Maria de Merlès", "Berguedà", 58.0, 36.4, "aviram, palmípedes", "Actiu", "", 0], ["e", "Escorxador municipal de Santa Coloma de Queralt", "Santa Coloma de Queralt", "Conca de Barberà", 39.03, 56.25, "oví i cabrum", "Actiu", "", 0], ["e", "Escorxador municipal de Sarral", "Sarral", "Conca de Barberà", 34.81, 59.77, "oví i cabrum", "Actiu", "", 0], ["e", "Escorxador municipal de la Granadella", "la Granadella", "Garrigues", 17.12, 63.34, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Llorach Gassó, Josep Maria", "els Omellons", "Garrigues", 26.29, 57.28, "oví i cabrum, ungulats", "Actiu", "", 0], ["e", "Torrent Montalà, SL", "les Borges Blanques", "Garrigues", 22.83, 56.41, "boví, oví i cabrum", "Actiu", "", 0], ["e", "Embotits Vilanova, SL", "Tortellà", "Garrotxa", 76.69, 27.78, "boví, oví i cabrum", "Actiu", "", 0], ["e", "Fabrega Monteis, SCP", "Sant Feliu de Pallerols", "Garrotxa", 73.02, 34.24, "aviram, conills", "Actiu", "", 0], ["e", "Faustina de Sola Morales Capdevila SL", "Sant Ferriol", "Garrotxa", 77.65, 28.82, "aviram", "Actiu", "", 0], ["e", "Miquel Dorca, S.L.", "Vall de Bianya", "Garrotxa", 71.3, 28.69, "porcí", "Actiu", "", 0], ["e", "Coronado Lopez, Mariano Angel", "Quart", "Gironès", 83.11, 39.09, "conills", "Actiu", "", 0], ["e", "Induanec SL", "Bescanó", "Gironès", 78.3, 38.4, "aviram, palmípedes", "Actiu", "", 0], ["e", "Palahi Figueras, Joaquima", "Sant Gregori", "Gironès", 80.58, 37.7, "aviram, palmípedes", "Actiu", "", 0], ["e", "Aucidèr dera Val d'Aran", "Les", "Aran", 18.65, 4.13, "boví, oví i cabrum", "Actiu", "", 0], ["e", "Jordi Valls Muntada", "Brunyola i Sant Martí Sapresa", "Selva", 78.29, 41.12, "boví, oví i cabrum, porcí", "Actiu", "", 0], ["e", "Soler de n'Hug", "Prats de Lluçanès", "Lluçanès", 57.78, 37.53, "oví i cabrum", "Actiu", "", 0], ["e", "Tordixai SL", "Tordera", "Maresme", 79.33, 49.06, "boví, oví i cabrum, ungulats", "Actiu", "", 0], ["e", "Consorci per la Promoció dels Municipis del Moianès", "Moià", "Moianès", 60.52, 44.89, "", "Actiu", "", 1], ["e", "Soler Urgell SL", "Calders", "Moianès", 57.12, 45.71, "conills", "Actiu", "", 0], ["e", "Escorxador municipal de la Galera", "la Galera", "Montsià", 10.99, 90.57, "oví i cabrum", "Actiu", "", 0], ["e", "Morros Fills SL", "Artesa de Segre", "Noguera", 28.6, 41.51, "conills", "Actiu", "", 0], ["e", "Escorxador Pirineus", "la Pobla de Segur", "Pallars Jussà", 26.21, 27.6, "boví, oví i cabrum, porcí", "Actiu", "", 0], ["e", "Escorxador municipal d'Isona i Conca Dellà", "Isona i Conca Dellà", "Pallars Jussà", 28.61, 32.46, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Escorxador municipal de Sort", "Sort", "Pallars Sobirà", 31.24, 20.52, "", "Actiu", "", 1], ["e", "Escorxador municipal de Cornudella de Montsant", "Cornudella de Montsant", "Priorat", 24.41, 67.01, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Escorxador municipal de Falset", "Falset", "Priorat", 21.54, 71.86, "oví i cabrum", "Actiu", "", 0], ["e", "Escorxador municipal de Miravet", "Miravet", "Ribera d'Ebre", 15.05, 76.1, "oví i cabrum", "Actiu", "", 0], ["e", "Agrocàrnica Vall de Camprodon, SCCL", "Camprodon", "Ripollès", 68.6, 24.66, "boví, oví i cabrum, equí", "Actiu", "", 0], ["e", "Escorxador del Ripollès, SA", "Ripoll", "Ripollès", 63.41, 29.16, "boví, oví i cabrum, porcí, equí", "Actiu", "", 0], ["e", "Escorxador municipal d'Alfarràs", "Alfarràs", "Segrià", 14.36, 44.14, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Escorxador municipal de Corbins", "Corbins", "Segrià", 17.98, 49.73, "porcí", "Actiu", "", 0], ["e", "Escorxador municipal de Maials", "Maials", "Segrià", 12.21, 62.91, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Escorxador municipal de Torrebesses", "Torrebesses", "Segrià", 15.15, 60.47, "", "Actiu", "", 1], ["e", "Associació d'Iniciatives Rurals de Catalunya", "Solsona", "Solsonès", 43.0, 36.78, "oví i cabrum", "Actiu", "", 0], ["e", "Escorxador municipal de Torà", "Torà", "Solsonès", 39.46, 44.91, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Escorxador municipal de Batea", "Batea", "Terra Alta", 6.46, 74.02, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Escorxador municipal de Gandesa", "Gandesa", "Terra Alta", 10.14, 75.51, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Escorxador municipal d'Horta de Sant Joan", "Horta de Sant Joan", "Terra Alta", 6.38, 80.14, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Escorxador municipal de la Fatarella", "la Fatarella", "Terra Alta", 11.2, 71.03, "oví i cabrum, porcí", "Actiu", "", 0], ["e", "Matadero Figuera, SA", "Agramunt", "Urgell", 30.4, 45.88, "conills", "Actiu", "", 0], ["e", "Escorxador Sabadell SA", "Sabadell", "Vallès Occidental", 60.61, 56.4, "boví, oví i cabrum", "Actiu", "", 0], ["e", "Gimave", "Ripollet", "Vallès Occidental", 62.52, 57.78, "aviram", "Actiu", "", 0], ["e", "Escorxador Rojas i Roca, SL", "les Franqueses del Vallès", "Vallès Oriental", 66.31, 51.72, "aviram", "Actiu", "", 0], ["o", "La Brostada", "Bràfim", "Alt Camp", 37.59, 66.79, "Transformats vegetals", "Actiu", "https://www.labrostada.cat/", 0], ["o", "La Gatera", "Font-rubí", "Alt Penedès", 46.99, 60.9, "Transformats vegetals", "Actiu", "https://lagateracoop.cat/", 0], ["o", "Viver de Cellers del Penedès", "Vilafranca del Penedès", "Alt Penedès", 48.58, 63.8, "Vins", "Actiu", "https://cellerviverpenedes.cat/", 0], ["o", "Fundació Planes Corts", "Estamariu", "Alt Urgell", 43.13, 22.0, "Productes làctics", "Actiu", "https://fundacioplanescorts.org", 0], ["o", "Obrador del Parc Agrari de la Conca d'Òdena", "Jorba", "Anoia", 44.72, 53.69, "Transformats vegetals i productes làctics", "Construcció", "https://parcagrarico.cat/", 0], ["o", "El Tall", "Marganell", "Bages", 51.3, 51.75, "Productes carnis, sala de desfer", "Construcció", "https://parcruraldelmontserrat.cat", 0], ["o", "L'Obradora", "Manresa", "Bages", 52.29, 48.38, "Transformats vegetals i plats cuinats", "Actiu", "https://lobradora.cat/", 0], ["o", "Viver de Celleristes d'Artés", "Artés", "Bages", 56.12, 45.44, "Vins", "Actiu", "https://cavesartium.com", 0], ["o", "Associació L'Econau", "l'Ametlla de Mar", "Baix Ebre", 20.18, 82.52, "Transformats vegetals", "Actiu", "https://econau.org/ca/obrador", 0], ["o", "EbreTerra", "Deltebre", "Baix Ebre", 19.32, 89.05, "Transformats vegetals", "Actiu", "", 0], ["o", "Bloc4BCN", "Barcelona", "Barcelonès", 61.77, 62.81, "Transformats vegetals i plats cuinats", "Construcció", "https://bloc4.coop/contacte/#mapa", 0], ["o", "BaseActiva", "Santa Coloma de Queralt", "Conca de Barberà", 38.82, 56.16, "Cerveses", "Actiu", "https://concactiva.cat/baseactiva/", 0], ["o", "Espai Cuina", "Montblanc", "Conca de Barberà", 32.34, 62.79, "Transformats vegetals i plats cuinats", "Actiu", "https://concactiva.cat/espai-cuina/", 0], ["o", "Viver de Celleristes de la Conca de Barberà", "Barberà de la Conca", "Conca de Barberà", 33.99, 61.15, "Vins i caves", "Actiu", "https://concactiva.cat/viver-celleristes/", 0], ["o", "La Branda Destil·leria", "l'Albi", "Garrigues", 24.85, 60.72, "Licors", "Actiu", "https://labranda.cat/", 0], ["o", "Obrador Garrigues Altes", "Bellaguarda", "Garrigues", 19.35, 64.09, "Transformats vegetals i plats cuinats", "Actiu", "https://www.garriguesaltes.cat/espais-de-treball-compartit", 0], ["o", "Tres Cadires", "Arbeca", "Garrigues", 25.04, 55.73, "Licors i transformats vegetals", "Actiu", "https://trescadires.cat/activitats-i-projectes/obrador-compartit/", 0], ["o", "Obrador agroalimentari del Turrós", "Argelaguer", "Garrotxa", 76.18, 28.85, "Molí fariner, transformats vegetals", "Actiu", "", 0], ["o", "El Quall", "Alpens", "Lluçanès", 60.64, 32.36, "Productes làctics", "Actiu", "https://www.llucanes.cat/programa/formatgeria-obrador-comunitari/", 0], ["o", "Tremolina de Muntanya", "Baix Pallars", "Pallars Sobirà", 29.19, 24.18, "Transformats vegetals", "Construcció", "https://tremolinacoop.cat", 0], ["o", "Aula d'Hostaleria del Ripollès", "Ripoll", "Ripollès", 63.75, 28.7, "Menjars preparats", "Actiu", "https://www.ripollesdesenvolupament.com/serveis/aula-hosteleria/", 0], ["o", "Fundació Privada Ilersis", "Lleida", "Segrià", 17.37, 52.77, "Transformats vegetals", "Actiu", "https://ilersis.org", 0], ["o", "La Sobirana Cooperativa", "Santa Coloma de Farners", "Selva", 77.69, 42.81, "Licors", "Actiu", "https://lasobirana.cat/obrador/", 0], ["o", "Obrador compartit de la Selva i la Baixa Tordera", "Blanes", "Selva", 81.3, 50.5, "Transformats vegetals", "Construcció", "https://www.espaiagraribaixatordera.cat/", 0], ["o", "Destil·leria dels Ports", "Prat de Comte", "Terra Alta", 9.22, 78.36, "Licors", "Actiu", "https://destilleriadelsports.cat", 0], ["o", "Obrador ecofariner de Gallecs", "Mollet del Vallès", "Vallès Oriental", 63.71, 55.05, "Farines", "Actiu", "http://www.espairuralgallecs.cat/", 0], ["o", "Viver d'Empreses Alimentàries Municipals de l'Ajuntament de Tagamanent (VEAMAT)", "Tagamanent", "Vallès Oriental", 65.68, 47.87, "Transformats vegetals i plats cuinats", "Actiu", "https://www.tagamanent.cat/obrador/", 0]];
+window.OUTLINE="837.3,176.9 807.3,164.1 780.0,159.4 755.5,167.0 725.5,178.7 698.2,191.5 665.5,202.4 632.7,189.6 597.3,180.5 564.5,193.3 548.2,198.8 523.6,187.8 500.5,175.1 482.7,164.1 459.5,151.4 436.4,164.1 409.1,176.9 381.8,178.7 362.7,167.8 360.0,134.9 365.5,113.1 353.2,93.0 313.6,72.9 280.9,54.7 248.2,58.4 231.8,43.8 204.5,31.0 171.8,18.2 154.1,29.2 150.0,51.1 154.1,80.2 163.6,109.4 165.0,145.9 169.1,182.4 170.5,226.1 165.0,262.6 158.2,291.8 145.9,320.9 132.3,350.1 114.5,379.3 90.0,412.1 75.0,444.9 68.2,481.4 65.5,517.9 69.5,547.1 77.7,572.6 87.3,598.1 62.7,620.0 54.5,641.9 45.0,671.1 38.2,703.9 31.4,733.1 25.9,758.6 23.2,784.1 34.1,806.0 51.8,827.9 73.6,846.1 114.5,871.6 124.1,860.7 135.0,840.6 147.3,851.6 155.5,858.9 166.4,846.1 188.2,831.5 212.7,816.9 219.5,800.5 207.3,787.8 185.5,780.5 170.5,769.5 189.5,747.6 207.3,722.1 225.0,703.9 245.5,685.6 261.8,678.4 289.1,680.2 310.9,663.8 354.5,649.2 420.0,630.9 444.5,623.6 466.4,616.4 490.9,609.1 512.7,601.8 550.9,590.8 568.6,565.3 585.0,539.8 640.9,506.9 722.7,466.8 736.4,455.9 750.0,444.9 771.8,437.6 799.1,415.8 826.4,393.9 852.3,353.8 845.5,317.3 829.1,291.8 820.9,269.9 825.0,244.4 841.4,242.5 870.0,229.8 878.2,218.8 845.5,209.7 834.5,198.8 833.2,187.8";
+window.CITIES=[["Barcelona",571.5,564.1],["Girona",749.1,348.2],["Lleida",148.8,480.2],["Tarragona",319.3,661.8],["Tortosa",121.8,773.8],["la Seu d'Urgell",378.5,210.0],["Manresa",477.2,439.7],["Vic",594.7,366.1],["Vielha",196.8,84.9],["Tremp",223.8,279.6],["Figueres",787.3,243.2],["Reus",281.6,648.7]];
+</script>
+<script>
+(function(){
+"use strict";
+var P=window.P_DATA, KM=0.302, NS="http://www.w3.org/2000/svg";
+var RM=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+var XY=P.map(function(a){return[a[4]*9,a[5]*9.01]});
+var POLY=window.OUTLINE.trim().split(/\s+/).map(function(s){return s.split(",").map(Number)});
+function sv(t,a,p){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+function el(t,a,k){var e=document.createElement(t);for(var x in(a||{})){if(x==="style")e.style.cssText=a[x];else if(x==="text")e.textContent=a[x];else if(x==="html")e.innerHTML=a[x];else if(x.slice(0,2)==="on")e.addEventListener(x.slice(2),a[x]);else e.setAttribute(x,a[x])}(k||[]).forEach(function(c){c&&e.appendChild(c)});return e}
+var FI={pin:'<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',tag:'<path d="M12.59 2.59A2 2 0 0 0 11.17 2H4a2 2 0 0 0-2 2v7.17a2 2 0 0 0 .59 1.42l8.7 8.7a2.43 2.43 0 0 0 3.42 0l6.58-6.58a2.43 2.43 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r="1"/>',clock:'<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>',nav:'<path d="M3 11 22 2l-9 19-2-8-8-2z"/>'};
+function fr(k,txt,c){var p=el("p",{class:"fr"+(c?" "+c:"")});p.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true">'+FI[k]+"</svg>";p.appendChild(document.createTextNode(txt));return p}
+function norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"")}
+function fmt(n,d){return n.toLocaleString("ca-ES",{minimumFractionDigits:d==null?2:d,maximumFractionDigits:d==null?2:d})}
+function eur(n){return fmt(n)+" €"}
+function inPoly(x,y){var c=false;for(var i=0,j=POLY.length-1;i<POLY.length;j=i++){var a=POLY[i],b=POLY[j];if(((a[1]>y)!==(b[1]>y))&&(x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0]))c=!c}return c}
+function store(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k)||"null");localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}}
+function go(id){var t=document.getElementById(id);if(t)t.scrollIntoView({behavior:RM?"auto":"smooth",block:"start"})}
+document.addEventListener("click",function(e){var b=e.target.closest("[data-go]");if(b){e.preventDefault();go(b.getAttribute("data-go"))}});
+
+/* ======== comptadors ======== */
+function countUp(b,n,dec,suf){if(RM)return;var t0=null;function f(t){if(!t0)t0=t;var k=Math.min(1,(t-t0)/1400),v=n*(1-Math.pow(1-k,3));b.textContent=(dec?fmt(v,1):fmt(Math.round(v),0))+suf;if(k<1)requestAnimationFrame(f)}requestAnimationFrame(f)}
+var io=("IntersectionObserver" in window)?new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;io.unobserve(e.target);var b=e.target,n=parseFloat(b.getAttribute("data-cnt"));countUp(b,n,false,b.getAttribute("data-s")||"")})},{threshold:.6}):null;
+if(io)document.querySelectorAll("[data-cnt]").forEach(function(b){io.observe(b)});
+
+/* ======== vídeo de capçalera ======== */
+(function(){var v=document.querySelector(".vh-v"),b=document.querySelector(".vh-p");if(!v||!b)return;
+ var PA='<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>',PL='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12-7.5z"/></svg>';
+ v.addEventListener("loadeddata",function(){b.hidden=false});
+ v.addEventListener("playing",function(){b.innerHTML=PA;b.setAttribute("aria-label","Atura el vídeo")});
+ v.addEventListener("pause",function(){b.innerHTML=PL;b.setAttribute("aria-label","Reprodueix el vídeo")});
+ b.addEventListener("click",function(){if(v.paused){var p=v.play();if(p&&p.catch)p.catch(function(){})}else v.pause()});
+ if(!RM){var p=v.play();if(p&&p.catch)p.catch(function(){})}else{b.innerHTML=PL;b.setAttribute("aria-label","Reprodueix el vídeo")}
+})();
+
+/* ======== minimapa del menú ======== */
+(function(){var s=document.querySelector(".bmap");if(!s)return;
+ sv("polygon",{points:window.OUTLINE,fill:"#1F2E2B",stroke:"#4C6560","stroke-width":"3","stroke-linejoin":"round"},s);
+ P.forEach(function(a,i){var p=XY[i];if(a[0]==="o")sv("circle",{cx:p[0],cy:p[1],r:10,fill:"#F28A3E"},s);else sv("rect",{x:p[0]-8,y:p[1]-8,width:16,height:16,fill:"#19B5AC"},s)});
+})();
+
+/* ======== xarxa animada ======== */
+(function(){
+ var s=document.getElementById("netsvg");if(!s)return;
+ sv("polygon",{points:window.OUTLINE,fill:"#1F2E2B",stroke:"#4C6560","stroke-width":"2","stroke-linejoin":"round"},s);
+ var gE=sv("g",{},s),gH=sv("g",{},s),gN=sv("g",{},s),gF=sv("g",{},s),seen={},edges=[];
+ XY.forEach(function(p,i){
+  XY.map(function(q,j){return[j,Math.hypot(p[0]-q[0],p[1]-q[1])]}).filter(function(x){return x[0]!==i}).sort(function(a,b){return a[1]-b[1]}).slice(0,2)
+   .forEach(function(x){var j=x[0],k=i<j?i+"-"+j:j+"-"+i;if(seen[k]||x[1]>170)return;seen[k]=1;edges.push([i,j,x[1]])});
+ });
+ edges.forEach(function(e){var a=XY[e[0]],b=XY[e[1]];
+  var l=sv("path",{d:"M"+a[0]+" "+a[1]+"L"+b[0]+" "+b[1],class:"edge"},gE);
+  l.style.setProperty("--l",e[2].toFixed(1));l.style.strokeDasharray=e[2].toFixed(1);l.style.setProperty("--d",(0.6+Math.min(a[0],b[0])/900*1.6).toFixed(2)+"s")});
+ P.forEach(function(a,i){var c=a[0]==="o"?"#F28A3E":"#19B5AC",p=XY[i],d=(0.2+p[0]/900*1.6).toFixed(2)+"s";
+  var n=a[0]==="o"?sv("circle",{cx:p[0],cy:p[1],r:7,fill:c,stroke:"#16211F","stroke-width":"2",class:"node"},gN):sv("rect",{x:p[0]-6,y:p[1]-6,width:12,height:12,fill:c,stroke:"#16211F","stroke-width":"2",class:"node"},gN);
+  n.style.setProperty("--d",d);
+  if(a[0]==="o"&&a[7]!=="Construcció"&&!RM){var h=sv("circle",{cx:p[0],cy:p[1],r:7,fill:"none",stroke:c,"stroke-width":"2",class:"halo"},gH);h.style.setProperty("--d",(2.4+Math.random()*3).toFixed(2)+"s")}
+ });
+ if(!RM){
+  s.closest(".net").classList.add("go");
+  edges.slice().sort(function(){return Math.random()-.5}).slice(0,16).forEach(function(e,k){var a=XY[e[0]],b=XY[e[1]],bg=(2.6+k*0.35).toFixed(2)+"s";
+   var c=sv("circle",{r:3.2,fill:"#FFFFFF",opacity:"0"},gF);
+   sv("animateMotion",{dur:(2.6+Math.random()*2.4).toFixed(1)+"s",repeatCount:"indefinite",begin:bg,path:"M"+a[0]+" "+a[1]+"L"+b[0]+" "+b[1]},c);
+   sv("set",{attributeName:"opacity",to:"0.9",begin:bg},c);
+  });
+  document.querySelectorAll(".counts b").forEach(function(b){var raw=b.getAttribute("data-n");countUp(b,parseFloat(raw),raw.indexOf(".")>-1,b.getAttribute("data-s")||"")});
+ }
+})();
+
+/* ======== recorregut ======== */
+(function(){
+ var steps=[].slice.call(document.querySelectorAll(".st")),imgs=[].slice.call(document.querySelectorAll(".story .sfig img")),bars=[].slice.call(document.querySelectorAll(".chain i"));
+ function act(i){steps.forEach(function(s,k){s.classList.toggle("on",k===i)});imgs.forEach(function(m,k){m.classList.toggle("on",k===i)});bars.forEach(function(b,k){b.classList.toggle("on",k<=i)});
+  document.getElementById("st-num").textContent="0"+(i+1);document.getElementById("st-lbl").textContent=steps[i].getAttribute("data-lbl")}
+ if(!("IntersectionObserver" in window))return;
+ var ob=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)act(steps.indexOf(e.target))})},{rootMargin:"-45% 0px -45% 0px"});
+ steps.forEach(function(s){ob.observe(s)});
+})();
+
+/* ======== cobertura (graella de distàncies) ======== */
+var COV=(function(){
+ var S=4,W=Math.ceil(900/S),H=Math.ceil(901/S),N=W*H,inside=new Uint8Array(N),cnt=0,D={o:new Float32Array(N),e:new Float32Array(N)},NI={o:new Int16Array(N),e:new Int16Array(N)};
+ var idx={o:[],e:[]};P.forEach(function(a,i){idx[a[0]].push(i)});
+ for(var y=0;y<H;y++)for(var x=0;x<W;x++){var c=y*W+x,px=x*S+S/2,py=y*S+S/2;if(!inPoly(px,py))continue;inside[c]=1;cnt++;
+  ["o","e"].forEach(function(t){var best=1e9,bi=-1;idx[t].forEach(function(i){var d=(XY[i][0]-px)*(XY[i][0]-px)+(XY[i][1]-py)*(XY[i][1]-py);if(d<best){best=d;bi=i}});D[t][c]=Math.sqrt(best)*KM;NI[t][c]=bi})}
+ function pct(t,th){var n=0;for(var c=0;c<N;c++)if(inside[c]&&D[t][c]>th)n++;return n/cnt*100}
+ var cv=document.createElement("canvas");cv.width=W;cv.height=H;var cx=cv.getContext("2d");
+ function image(t,th){var im=cx.createImageData(W,H),d=im.data;for(var c=0;c<N;c++){if(!inside[c])continue;var k=D[t][c],o=c*4;
+   if(k<=th){var f=k/th;d[o]=0;d[o+1]=161;d[o+2]=154;d[o+3]=Math.round(255*(0.62-0.48*f))}else{d[o]=217;d[o+1]=83;d[o+2]=30;d[o+3]=Math.round(255*Math.min(0.62,0.3+(k-th)/60))}}
+  cx.putImageData(im,0,0);return cv.toDataURL()}
+ function at(t,x,y){var gx=Math.floor(x/S),gy=Math.floor(y/S);if(gx<0||gy<0||gx>=W||gy>=H)return null;var c=gy*W+gx;if(!inside[c])return null;return{km:D[t][c],i:NI[t][c]}}
+ return{pct:pct,image:image,at:at,W:W,H:H,S:S};
+})();
+(function(){var g=document.getElementById("esc-gap");if(g)g.textContent=fmt(COV.pct("e",15),0)+" %"})();
+
+/* ======== mapa interactiu ======== */
+var MAP=(function(){
+ var box=document.getElementById("mapx");if(!box)return null;var svg=document.getElementById("msvg"),tip=document.getElementById("tip"),hint=document.getElementById("hint");
+ var gz=sv("g",{},svg);
+ sv("rect",{x:-2000,y:-2000,width:4900,height:4900,fill:"#EAF0F2"},gz);
+ sv("polygon",{points:window.OUTLINE,fill:"#FFFFFF"},gz);
+ var covImg=sv("image",{x:0,y:0,width:COV.W*COV.S,height:COV.H*COV.S,preserveAspectRatio:"none"},gz);covImg.style.display="none";
+ sv("polygon",{points:window.OUTLINE,fill:"none",stroke:"#9AA3A8","stroke-width":"2","stroke-linejoin":"round","vector-effect":"non-scaling-stroke"},gz);
+ var gL=sv("g",{},gz),gM=sv("g",{},gz),gS=sv("g",{},gz);
+ var labels=window.CITIES.map(function(c){var t=sv("text",{x:c[1],y:c[2],fill:"#5A5A5A","font-family":"Open Sans, Arial, sans-serif","font-size":"15","paint-order":"stroke",stroke:"#FFFFFF","stroke-width":"3"},gL);t.textContent=c[0];return t});
+ var st={k:1,tx:0,ty:0,L:{o:true,e:true},cov:false,ct:"e",th:15,q:"",sel:null,view:"inici"};
+ var marks=P.map(function(a,i){var o=a[0]==="o",p=XY[i];var m=o?sv("circle",{cx:p[0],cy:p[1],class:"mk"},gM):sv("rect",{class:"mk"},gM);
+  m.setAttribute("fill",o?(a[7]==="Construcció"?"#FFFFFF":"#EE7623"):(a[9]?"#E2F4F3":"#00A19A"));m.setAttribute("stroke",o?(a[7]==="Construcció"?"#A9500F":"#FFFFFF"):(a[9]?"#00756F":"#FFFFFF"));
+  if(a[9])m.setAttribute("stroke-dasharray","3 2");m.setAttribute("tabindex","-1");m.__i=i;return m});
+ function size(){var k=st.k,r=7/Math.sqrt(k)*1.25,sw=2/k*1.6;
+  marks.forEach(function(m,i){var a=P[i],p=XY[i],s=(st.sel===i?1.7:1)*r;if(a[0]==="o"){m.setAttribute("r",s);}else{m.setAttribute("x",p[0]-s*.88);m.setAttribute("y",p[1]-s*.88);m.setAttribute("width",s*1.76);m.setAttribute("height",s*1.76)}
+   m.setAttribute("stroke-width",(a[0]==="o"&&a[7]==="Construcció"?2.6:1.8)/Math.sqrt(k)*1.2)});
+  labels.forEach(function(t){t.setAttribute("font-size",15/Math.sqrt(k));t.setAttribute("stroke-width",3/Math.sqrt(k))});
+  gS.innerHTML="";if(st.sel!==null){var p=XY[st.sel];var c=sv("circle",{cx:p[0],cy:p[1],r:r*2.6,fill:"none",stroke:"#1F1F1F","stroke-width":2/Math.sqrt(k)},gS);if(!RM){sv("animate",{attributeName:"r",values:(r*1.8)+";"+(r*3.4)+";"+(r*1.8),dur:"1.8s",repeatCount:"indefinite"},c)}}}
+ function clamp(){st.k=Math.max(1,Math.min(10,st.k));var mn=900-900*st.k;st.tx=Math.min(0,Math.max(mn,st.tx));st.ty=Math.min(0,Math.max(901-901*st.k,st.ty))}
+ function apply(){clamp();gz.setAttribute("transform","translate("+st.tx.toFixed(2)+" "+st.ty.toFixed(2)+") scale("+st.k.toFixed(4)+")");size()}
+ function zoomAt(vx,vy,f){var k2=Math.max(1,Math.min(10,st.k*f));st.tx=vx-(vx-st.tx)*k2/st.k;st.ty=vy-(vy-st.ty)*k2/st.k;st.k=k2;apply()}
+ var anim=null;
+ function fly(k2,cx,cy){var k0=st.k,x0=st.tx,y0=st.ty,x1=450-cx*k2,y1=450-cy*k2,t0=null;if(anim)cancelAnimationFrame(anim);
+  if(RM){st.k=k2;st.tx=x1;st.ty=y1;apply();return}
+  function f(t){if(!t0)t0=t;var u=Math.min(1,(t-t0)/650),e=u<.5?2*u*u:1-Math.pow(-2*u+2,2)/2;st.k=k0+(k2-k0)*e;st.tx=x0+(x1-x0)*e;st.ty=y0+(y1-y0)*e;apply();if(u<1)anim=requestAnimationFrame(f)}anim=requestAnimationFrame(f)}
+ function vpt(e){var r=svg.getBoundingClientRect();return[(e.clientX-r.left)/r.width*900,(e.clientY-r.top)/r.height*901]}
+ function mpt(v){return[(v[0]-st.tx)/st.k,(v[1]-st.ty)/st.k]}
+ document.getElementById("zin").addEventListener("click",function(){zoomAt(450,450,1.6)});
+ document.getElementById("zout").addEventListener("click",function(){zoomAt(450,450,1/1.6)});
+ document.getElementById("zreset").addEventListener("click",function(){fly(1,450,450.5)});
+ var ht=null;
+ box.addEventListener("wheel",function(e){if(!(e.ctrlKey||e.metaKey)){hint.classList.add("on");clearTimeout(ht);ht=setTimeout(function(){hint.classList.remove("on")},1300);return}
+  e.preventDefault();var v=vpt(e);zoomAt(v[0],v[1],Math.exp(-e.deltaY*0.0022))},{passive:false});
+ box.addEventListener("dblclick",function(e){var v=vpt(e);zoomAt(v[0],v[1],1.8)});
+ var ptrs={},drag=null,moved=false,pinch=null;
+ box.addEventListener("pointerdown",function(e){if(e.target.closest(".zoom"))return;ptrs[e.pointerId]=vpt(e);box.setPointerCapture(e.pointerId);var ids=Object.keys(ptrs);
+  if(ids.length===1){drag={v:ptrs[e.pointerId],tx:st.tx,ty:st.ty,m:e.target.closest&&e.target.closest(".mk")};moved=false}
+  else if(ids.length===2){var a=ptrs[ids[0]],b=ptrs[ids[1]];pinch={d:Math.hypot(a[0]-b[0],a[1]-b[1]),k:st.k,tx:st.tx,ty:st.ty,c:[(a[0]+b[0])/2,(a[1]+b[1])/2]};drag=null}});
+ box.addEventListener("pointermove",function(e){var v=vpt(e);
+  if(ptrs[e.pointerId]){ptrs[e.pointerId]=v;var ids=Object.keys(ptrs);
+   if(pinch&&ids.length===2){var a=ptrs[ids[0]],b=ptrs[ids[1]],d=Math.hypot(a[0]-b[0],a[1]-b[1]),k2=Math.max(1,Math.min(10,pinch.k*d/pinch.d));st.tx=pinch.c[0]-(pinch.c[0]-pinch.tx)*k2/pinch.k;st.ty=pinch.c[1]-(pinch.c[1]-pinch.ty)*k2/pinch.k;st.k=k2;apply();moved=true;return}
+   if(drag){var dx=v[0]-drag.v[0],dy=v[1]-drag.v[1];if(Math.abs(dx)+Math.abs(dy)>4){moved=true;box.classList.add("drag")}if(moved){st.tx=drag.tx+dx;st.ty=drag.ty+dy;apply();tip.hidden=true;return}}}
+  hover(e,v)});
+ function up(e){delete ptrs[e.pointerId];if(Object.keys(ptrs).length<2)pinch=null;
+  if(drag&&!moved&&e.type==="pointerup"&&drag.m)select(drag.m.__i,true);
+  drag=null;box.classList.remove("drag")}
+ box.addEventListener("pointerup",up);box.addEventListener("pointercancel",up);
+ box.addEventListener("pointerleave",function(){tip.hidden=true});
+ function hover(e,v){var m=e.target.closest&&e.target.closest(".mk"),r=box.getBoundingClientRect(),h="";
+  if(m){var a=P[m.__i];h="<b>"+esc(a[1])+"</b>"+esc(a[2])+" · "+esc(a[3])}
+  else if(st.cov){var p=mpt(v),q=COV.at(st.ct,p[0],p[1]);if(q){h="<b>≈ "+fmt(q.km,0)+" km</b>fins "+(st.ct==="e"?"a l'escorxador":"a l'obrador")+" més proper: "+esc(P[q.i][1])}}
+  if(!h){tip.hidden=true;return}tip.innerHTML=h;tip.hidden=false;tip.style.left=(e.clientX-r.left)+"px";tip.style.top=(e.clientY-r.top)+"px"}
+ function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+
+ /* capes */
+ var COUNT={o:0,e:0};P.forEach(function(a){COUNT[a[0]]++});
+ document.getElementById("n-o").textContent=COUNT.o;document.getElementById("n-e").textContent=COUNT.e;
+ ["o","e"].forEach(function(t){document.getElementById("L-"+t).addEventListener("change",function(e){st.L[t]=e.target.checked;st.sel=null;render()})});
+ document.getElementById("L-c").addEventListener("change",function(e){st.cov=e.target.checked;cov()});
+ document.querySelectorAll("[data-cov]").forEach(function(b){b.addEventListener("click",function(){st.ct=b.getAttribute("data-cov");cov()})});
+ var R=document.getElementById("covr");R.addEventListener("input",function(){st.th=+R.value;cov()});
+ function cov(){document.getElementById("covbox").hidden=!st.cov;covImg.style.display=st.cov?"":"none";
+  document.querySelectorAll("[data-cov]").forEach(function(b){b.setAttribute("aria-pressed",String(b.getAttribute("data-cov")===st.ct))});
+  R.value=st.th;document.getElementById("covo").textContent=st.th+" km";document.getElementById("covlbl").textContent=st.th+" km";
+  if(st.cov){covImg.setAttribute("href",COV.image(st.ct,st.th));var p=COV.pct(st.ct,st.th);document.getElementById("covpct").textContent=fmt(p,0)+" %";
+   document.getElementById("covtxt").textContent="del territori queda a més de "+st.th+" km en línia recta "+(st.ct==="e"?"d'un escorxador":"d'un obrador compartit")+" del mapa"}
+  document.getElementById("L-c").checked=st.cov}
+
+ /* llista, cerca i fitxa */
+ document.getElementById("cerca").addEventListener("input",function(e){st.q=e.target.value;render()});
+ function vis(i){var a=P[i];if(!st.L[a[0]])return false;var q=norm(st.q).trim();return !q||norm(a[1]+" "+a[2]+" "+a[3]+" "+a[6]).indexOf(q)!==-1}
+ function select(i,fromMap){st.sel=(st.sel===i&&fromMap)?null:i;render();if(st.sel!==null){var p=XY[i];fly(Math.max(st.k,3.2),p[0],p[1])}}
+ function render(){
+  var idx=[];marks.forEach(function(m,i){var v=vis(i);m.style.display=v?"":"none";if(v)idx.push(i)});
+  document.getElementById("res").textContent=idx.length===1?"1 infraestructura":idx.length+" infraestructures";
+  var ul=document.getElementById("llista");ul.innerHTML="";
+  idx.slice().sort(function(x,y){return(P[x][3]+P[x][1]).localeCompare(P[y][3]+P[y][1],"ca")}).forEach(function(i){var a=P[i],o=a[0]==="o";
+   ul.appendChild(el("li",{},[el("button",{type:"button","aria-pressed":String(st.sel===i),onclick:function(){select(i)}},[el("span",{style:"flex:none;width:12px;height:12px;margin-top:4px;"+(o?"border-radius:50%;background:"+(a[7]==="Construcció"?"#fff;border:2px solid var(--obr-ink)":"var(--obr)"):"border-radius:2px;background:"+(a[9]?"var(--esc-soft);border:2px dashed var(--esc-ink)":"var(--esc)"))}),el("span",{},[el("span",{class:"n",text:a[1]}),el("span",{class:"m",text:a[2]+" · "+a[3]+(a[7]==="Construcció"?" · En construcció":"")})])])]))});
+  var f=document.getElementById("fitxa");f.innerHTML="";
+  if(st.sel!==null){var a=P[st.sel],o=a[0]==="o",p=XY[st.sel];
+   var nn=P.map(function(b,j){return[j,Math.hypot(XY[j][0]-p[0],XY[j][1]-p[1])]}).filter(function(x){return x[0]!==st.sel&&P[x[0]][0]===a[0]}).sort(function(x,y){return x[1]-y[1]})[0];
+   f.appendChild(el("div",{class:"fitxa",style:"--fc:"+(o?"var(--obr-ink)":"var(--esc-ink)")},[
+    el("span",{class:"k",text:o?"Obrador compartit":"Escorxador"}),el("h3",{text:a[1]}),
+    fr("pin",a[2]+" ("+a[3]+")"),
+    fr("tag",o?"Orientació: "+a[6]:(a[6]?"Espècies: "+a[6]:"Activitat pendent de detallar")),
+    fr("clock",(a[7]==="Construcció"?"En construcció":"En funcionament")+(a[9]?" · Ubicació aproximada":""),"small"),
+    nn?fr("nav",(o?"Obrador":"Escorxador")+" més proper: "+P[nn[0]][1]+" (≈ "+fmt(Math.max(1,nn[1]*KM),0)+" km)","small"):null,
+    a[8]?el("p",{style:"margin-top:8px"},[el("a",{href:a[8],target:"_blank",rel:"noopener",style:"font-weight:600",text:"Web de la infraestructura ↗"})]):null,
+    el("button",{type:"button",class:"x",text:"Tanca la fitxa",onclick:function(){st.sel=null;render()}})]))}
+  size();
+ }
+ function preset(v){st.view=v;st.sel=null;st.q="";document.getElementById("cerca").value="";
+  st.L={o:v!=="escorxadors",e:v!=="obradors"};document.getElementById("L-o").checked=st.L.o;document.getElementById("L-e").checked=st.L.e;
+  st.cov=v==="escorxadors";st.ct=v==="obradors"?"o":"e";st.th=15;st.k=1;st.tx=0;st.ty=0;apply();cov();render()}
+ apply();render();
+ return{preset:preset};
+})();
+
+/* ======== cercador ======== */
+(function(){
+ var ms=document.getElementById("minisvg");if(!ms)return;
+ sv("rect",{width:900,height:901,fill:"#EAF0F2"},ms);
+ sv("polygon",{points:window.OUTLINE,fill:"#FFFFFF",stroke:"#9AA3A8","stroke-width":"3"},ms);
+ var gP=sv("g",{},ms),pin=sv("g",{},ms);
+ var CC={};P.forEach(function(a,i){(CC[a[3]]=CC[a[3]]||[]).push(XY[i])});
+ var names=Object.keys(CC).sort(function(a,b){return a.localeCompare(b,"ca")});
+ var sel=document.getElementById("f-com");
+ sel.appendChild(el("option",{value:"",text:"Ubicació marcada al mapa"}));
+ names.forEach(function(n){sel.appendChild(el("option",{value:n,text:n}))});
+ var st={need:"o",pt:null,label:""};
+ function cent(n){var L=CC[n],x=0,y=0;L.forEach(function(p){x+=p[0];y+=p[1]});return[x/L.length,y/L.length]}
+ function setCom(n){st.pt=cent(n);st.label=n;sel.value=n;run()}
+ sel.addEventListener("change",function(){if(sel.value)setCom(sel.value)});
+ document.getElementById("mini").addEventListener("click",function(e){var r=ms.getBoundingClientRect();st.pt=[(e.clientX-r.left)/r.width*900,(e.clientY-r.top)/r.height*901];st.label="la ubicació marcada";sel.value="";run()});
+ var opts=[].slice.call(document.querySelectorAll(".opt"));
+ opts.forEach(function(b,k){b.addEventListener("click",function(){st.need=b.getAttribute("data-need");run()});
+  b.addEventListener("keydown",function(e){var d=e.key==="ArrowDown"||e.key==="ArrowRight"?1:e.key==="ArrowUp"||e.key==="ArrowLeft"?-1:0;if(!d)return;e.preventDefault();var n=opts[(k+d+opts.length)%opts.length];n.focus();n.click()})});
+ function run(){
+  opts.forEach(function(b){var on=b.getAttribute("data-need")===st.need;b.setAttribute("aria-checked",String(on));b.tabIndex=on?0:-1});
+  gP.innerHTML="";pin.innerHTML="";
+  var out=document.getElementById("f-res");out.className="r "+{o:"v-obr",e:"v-esc",x:"v-xar"}[st.need];
+  var near=[];
+  if(st.need!=="x"){
+   P.forEach(function(a,i){if(a[0]!==st.need)return;var p=XY[i];sv(a[0]==="o"?"circle":"rect",a[0]==="o"?{cx:p[0],cy:p[1],r:8,fill:"#EE7623",opacity:".35"}:{x:p[0]-7,y:p[1]-7,width:14,height:14,fill:"#00A19A",opacity:".35"},gP)});
+   near=P.map(function(a,i){return[i,Math.hypot(XY[i][0]-st.pt[0],XY[i][1]-st.pt[1])]}).filter(function(x){return P[x[0]][0]===st.need}).sort(function(a,b){return a[1]-b[1]}).slice(0,4);
+   near.forEach(function(x,k){var p=XY[x[0]];var ln=sv("line",{x1:st.pt[0],y1:st.pt[1],x2:p[0],y2:p[1],stroke:st.need==="o"?"#A9500F":"#00756F","stroke-width":"3","stroke-dasharray":"8 6"},gP);
+    if(!RM){var L=x[1];ln.setAttribute("stroke-dasharray",L+" "+L);ln.setAttribute("stroke-dashoffset",L);sv("animate",{attributeName:"stroke-dashoffset",from:L,to:0,dur:".6s",begin:(k*0.08)+"s",fill:"freeze"},ln)}
+    sv(st.need==="o"?"circle":"rect",st.need==="o"?{cx:p[0],cy:p[1],r:11,fill:"#EE7623",stroke:"#fff","stroke-width":"3"}:{x:p[0]-10,y:p[1]-10,width:20,height:20,fill:"#00A19A",stroke:"#fff","stroke-width":"3"},gP)});
+  }
+  sv("circle",{cx:st.pt[0],cy:st.pt[1],r:16,fill:"#C8102E",stroke:"#fff","stroke-width":"4"},pin);sv("circle",{cx:st.pt[0],cy:st.pt[1],r:5,fill:"#fff"},pin);
+  var h="";
+  if(st.need==="x"){h+='<p class="res-h">Xarxes de distribució</p><p style="font-size:14px;color:var(--ink-2)">Les xarxes de distribució compartides s\'estan identificant i dimensionant per incorporar-les al mapa. Mentrestant, aquests són els recursos disponibles:</p>'}
+  else{h+='<p class="res-h">'+(st.need==="o"?"Obradors compartits":"Escorxadors")+' més propers</p><p class="small" style="margin:0">Des de '+st.label+' · distància aproximada en línia recta</p><ul class="near">';
+   near.forEach(function(x){var a=P[x[0]];h+='<li><span><b>'+a[1]+'</b><small>'+a[2]+' · '+a[3]+(a[7]==="Construcció"?' · en construcció':'')+'</small></span><span class="km">'+fmt(Math.max(1,Math.round(x[1]*KM)),0)+' km</span></li>'});h+='</ul>'}
+  var R={o:[["obradors.html","Guia de creació i gestió d'espais compartits","Guia"],["obradors.html#s-ajuts","Ajuts per a obradors compartits · línia 2.1","PEAC"]],
+         e:[["escorxadors.html","Guia d'higiene per a petits escorxadors","En elaboració"],["escorxadors.html#s-ajuts","Ajuts per a petits escorxadors · línia 2.2","PEAC"]],
+         x:[["xarxes.html","Manual de bones pràctiques logístiques","Guia"],["http://agrocollab.scmteam.es/","Agrocol·lab","Eina ↗"],["xarxes.html#s-ajuts","Ajuts per a xarxes de distribució · línia 2.3","PEAC"]]}[st.need];
+  h+='<div class="next">'+R.map(function(r){return'<a href="'+r[0]+'"'+(r[0].indexOf("http")===0?' target="_blank" rel="noopener"':'')+'><span>'+r[1]+'</span><em>'+r[2]+'</em></a>'}).join("")+'<div><span>Oficina virtual d\'infraestructures compartides</span><em>Properament</em></div></div>';
+  out.innerHTML=h}
+ setCom(names.indexOf("Bages")>-1?"Bages":names[0]);
+})();
+
+/* ======== experiències: navegació ======== */
+document.querySelectorAll("[data-exp]").forEach(function(b){b.addEventListener("click",function(){var tr=b.closest("section").querySelector(".exp-track");tr.scrollBy({left:(+b.getAttribute("data-exp"))*(tr.firstElementChild.offsetWidth+12),behavior:RM?"auto":"smooth"})})});
+
+})();
+</script>
+</body>
+</html>

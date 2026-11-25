@@ -1,0 +1,1980 @@
+{
+ "type": "FeatureCollection",
+ "name": "infraestructures-alimentaries-compartides",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.16871,
+     41.26222
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal d'Alcover",
+    "municipi": "Alcover",
+    "comarca": "Alt Camp",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.34053,
+     41.27003
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "La Brostada",
+    "municipi": "Bràfim",
+    "comarca": "Alt Camp",
+    "activitat": "Transformats vegetals",
+    "estat": "En funcionament",
+    "web": "https://www.labrostada.cat/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.98224,
+     42.22558
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Coll-Verd, Productes de l'Anec, SA",
+    "municipi": "Vilamalla",
+    "comarca": "Alt Empordà",
+    "activitat": "aviram, palmípedes",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     3.07336,
+     42.17219
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador Vila de l'Armentera, SL",
+    "municipi": "l'Armentera",
+    "comarca": "Alt Empordà",
+    "activitat": "boví, oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     3.00833,
+     42.30542
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Peralada",
+    "municipi": "Peralada",
+    "comarca": "Alt Empordà",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.79289,
+     41.38104
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Carns Can Cartró, SL",
+    "municipi": "Subirats",
+    "comarca": "Alt Penedès",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.65081,
+     41.41548
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "La Gatera",
+    "municipi": "Font-rubí",
+    "comarca": "Alt Penedès",
+    "activitat": "Transformats vegetals",
+    "estat": "En funcionament",
+    "web": "https://lagateracoop.cat/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.59318,
+     41.33057
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Olivella Cruz, Montserrat",
+    "municipi": "Castellví de la Marca",
+    "comarca": "Alt Penedès",
+    "activitat": "aviram, palmípedes",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.7033,
+     41.34391
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Viver de Cellers del Penedès",
+    "municipi": "Vilafranca del Penedès",
+    "comarca": "Alt Penedès",
+    "activitat": "Vins",
+    "estat": "En funcionament",
+    "web": "https://cellerviverpenedes.cat/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.30808,
+     42.06794
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador l'Alt Urgell SCP",
+    "municipi": "Oliana",
+    "comarca": "Alt Urgell",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RSIPAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.52337,
+     42.37655
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Fundació Planes Corts",
+    "municipi": "Estamariu",
+    "comarca": "Alt Urgell",
+    "activitat": "Productes làctics",
+    "estat": "En funcionament",
+    "web": "https://fundacioplanescorts.org",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.45219,
+     42.36623
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Mafriseu SA",
+    "municipi": "la Seu d'Urgell",
+    "comarca": "Alt Urgell",
+    "activitat": "boví, oví i cabrum, porcí, aviram",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.45537,
+     42.35207
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Masana Grau, Matilde",
+    "municipi": "la Seu d'Urgell",
+    "comarca": "Alt Urgell",
+    "activitat": "conills",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.45445,
+     42.35197
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Matadero de Aves Guiu",
+    "municipi": "la Seu d'Urgell",
+    "comarca": "Alt Urgell",
+    "activitat": "boví, oví i cabrum, aviram",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.74265,
+     42.40692
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador Comarcal",
+    "municipi": "el Pont de Suert",
+    "comarca": "Alta Ribagorça",
+    "activitat": "boví, oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.71429,
+     42.47234
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Porté Estop, José Luís",
+    "municipi": "Vilaller",
+    "comarca": "Alta Ribagorça",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RSIPAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.48856,
+     41.70043
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Sant Martí Sesgueioles",
+    "municipi": "Sant Martí Sesgueioles",
+    "comarca": "Anoia",
+    "activitat": "porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.60481,
+     41.55676
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Santa Margarida de Montbui",
+    "municipi": "Santa Margarida de Montbui",
+    "comarca": "Anoia",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.57573,
+     41.59358
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Obrador del Parc Agrari de la Conca d'Òdena",
+    "municipi": "Jorba",
+    "comarca": "Anoia",
+    "activitat": "Transformats vegetals i productes làctics",
+    "estat": "En construcció",
+    "web": "https://parcagrarico.cat/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.71536,
+     42.81808
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Aucidèr dera Val d'Aran",
+    "municipi": "Les",
+    "comarca": "Aran",
+    "activitat": "boví, oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.79281,
+     41.64152
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "El Tall",
+    "municipi": "Marganell",
+    "comarca": "Bages",
+    "activitat": "Productes carnis, sala de desfer",
+    "estat": "En construcció",
+    "web": "https://parcruraldelmontserrat.cat",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.894,
+     41.826
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Els Plans de Cornet, SCP",
+    "municipi": "Sallent",
+    "comarca": "Bages",
+    "activitat": "",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": true,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.82569,
+     41.72486
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "L'Obradora",
+    "municipi": "Manresa",
+    "comarca": "Bages",
+    "activitat": "Transformats vegetals i plats cuinats",
+    "estat": "En funcionament",
+    "web": "https://lobradora.cat/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.8611,
+     41.72342
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Tatjé de Viladordis",
+    "municipi": "Manresa",
+    "comarca": "Bages",
+    "activitat": "aviram, conills",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.95207,
+     41.79738
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Viver de Celleristes d'Artés",
+    "municipi": "Artés",
+    "comarca": "Bages",
+    "activitat": "Vins",
+    "estat": "En funcionament",
+    "web": "https://cavesartium.com",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.09801,
+     41.1277
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Conills Pages, SL",
+    "municipi": "Reus",
+    "comarca": "Baix Camp",
+    "activitat": "conills",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.76596,
+     40.88127
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Associació L'Econau",
+    "municipi": "l'Ametlla de Mar",
+    "comarca": "Baix Ebre",
+    "activitat": "Transformats vegetals",
+    "estat": "En funcionament",
+    "web": "https://econau.org/ca/obrador",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.66746,
+     40.90226
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Baldo Pallarés, SA",
+    "municipi": "el Perelló",
+    "comarca": "Baix Ebre",
+    "activitat": "conills",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.73766,
+     40.72
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "EbreTerra",
+    "municipi": "Deltebre",
+    "comarca": "Baix Ebre",
+    "activitat": "Transformats vegetals",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.52051,
+     40.81119
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Empresa Mixta Escorxador de Tortosa, SL",
+    "municipi": "Tortosa",
+    "comarca": "Baix Ebre",
+    "activitat": "boví, oví i cabrum, porcí, equí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.76535,
+     40.70569
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Granja Luisiana, SL",
+    "municipi": "Deltebre",
+    "comarca": "Baix Ebre",
+    "activitat": "aviram",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     3.038,
+     41.96
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de la Bisbal d'Empordà",
+    "municipi": "la Bisbal d'Empordà",
+    "comarca": "Baix Empordà",
+    "activitat": "",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": true,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     3.04892,
+     42.06498
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Fribel",
+    "municipi": "Verges",
+    "comarca": "Baix Empordà",
+    "activitat": "boví, oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.98954,
+     41.95797
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Mir CB",
+    "municipi": "Cruïlles, Monells i Sant Sadurní de l'Heura",
+    "comarca": "Baix Empordà",
+    "activitat": "porcí, ungulats",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RSIPAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.1385,
+     41.36832
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Bloc4BCN",
+    "municipi": "Barcelona",
+    "comarca": "Barcelonès",
+    "activitat": "Transformats vegetals i plats cuinats",
+    "estat": "En construcció",
+    "web": "https://bloc4.coop/contacte/#mapa",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.85844,
+     42.10279
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Carnissers de Berga, SCCL",
+    "municipi": "Berga",
+    "comarca": "Berguedà",
+    "activitat": "boví, oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.01388,
+     42.0208
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "L'Ànec 5 Aglans SCP",
+    "municipi": "Santa Maria de Merlès",
+    "comarca": "Berguedà",
+    "activitat": "aviram, palmípedes",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.38109,
+     41.53261
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "BaseActiva",
+    "municipi": "Santa Coloma de Queralt",
+    "comarca": "Conca de Barberà",
+    "activitat": "Cerveses",
+    "estat": "En funcionament",
+    "web": "https://concactiva.cat/baseactiva/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.38786,
+     41.53038
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Santa Coloma de Queralt",
+    "municipi": "Santa Coloma de Queralt",
+    "comarca": "Conca de Barberà",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.24857,
+     41.44332
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Sarral",
+    "municipi": "Sarral",
+    "comarca": "Conca de Barberà",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1671,
+     41.36876
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Espai Cuina",
+    "municipi": "Montblanc",
+    "comarca": "Conca de Barberà",
+    "activitat": "Transformats vegetals i plats cuinats",
+    "estat": "En funcionament",
+    "web": "https://concactiva.cat/espai-cuina/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.22162,
+     41.40942
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Viver de Celleristes de la Conca de Barberà",
+    "municipi": "Barberà de la Conca",
+    "comarca": "Conca de Barberà",
+    "activitat": "Vins i caves",
+    "estat": "En funcionament",
+    "web": "https://concactiva.cat/viver-celleristes/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.66493,
+     41.35517
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de la Granadella",
+    "municipi": "la Granadella",
+    "comarca": "Garrigues",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.92005,
+     41.41981
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "La Branda Destil·leria",
+    "municipi": "l'Albi",
+    "comarca": "Garrigues",
+    "activitat": "Licors",
+    "estat": "En funcionament",
+    "web": "https://labranda.cat/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.96757,
+     41.50499
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Llorach Gassó, Josep Maria",
+    "municipi": "els Omellons",
+    "comarca": "Garrigues",
+    "activitat": "oví i cabrum, ungulats",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RSIPAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.73852,
+     41.33674
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Obrador Garrigues Altes",
+    "municipi": "Bellaguarda",
+    "comarca": "Garrigues",
+    "activitat": "Transformats vegetals i plats cuinats",
+    "estat": "En funcionament",
+    "web": "https://www.garriguesaltes.cat/espais-de-treball-compartit",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.85328,
+     41.52636
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Torrent Montalà, SL",
+    "municipi": "les Borges Blanques",
+    "comarca": "Garrigues",
+    "activitat": "boví, oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.92638,
+     41.54329
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Tres Cadires",
+    "municipi": "Arbeca",
+    "comarca": "Garrigues",
+    "activitat": "Licors i transformats vegetals",
+    "estat": "En funcionament",
+    "web": "https://trescadires.cat/activitats-i-projectes/obrador-compartit/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.63079,
+     42.2336
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Embotits Vilanova, SL",
+    "municipi": "Tortellà",
+    "comarca": "Garrotxa",
+    "activitat": "boví, oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.5098,
+     42.0742
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Fabrega Monteis, SCP",
+    "municipi": "Sant Feliu de Pallerols",
+    "comarca": "Garrotxa",
+    "activitat": "aviram, conills",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.66232,
+     42.20798
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Faustina de Sola Morales Capdevila SL",
+    "municipi": "Sant Ferriol",
+    "comarca": "Garrotxa",
+    "activitat": "aviram",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RSIPAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.4528,
+     42.2112
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Miquel Dorca, S.L.",
+    "municipi": "Vall de Bianya",
+    "comarca": "Garrotxa",
+    "activitat": "porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.61398,
+     42.20738
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Obrador agroalimentari del Turrós",
+    "municipi": "Argelaguer",
+    "comarca": "Garrotxa",
+    "activitat": "Molí fariner, transformats vegetals",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.84278,
+     41.95435
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Coronado Lopez, Mariano Angel",
+    "municipi": "Quart",
+    "comarca": "Gironès",
+    "activitat": "conills",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.68378,
+     41.97146
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Induanec SL",
+    "municipi": "Bescanó",
+    "comarca": "Gironès",
+    "activitat": "aviram, palmípedes",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.75902,
+     41.98852
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Palahi Figueras, Joaquima",
+    "municipi": "Sant Gregori",
+    "comarca": "Gironès",
+    "activitat": "aviram, palmípedes",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RSIPAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.10103,
+     42.12056
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "El Quall",
+    "municipi": "Alpens",
+    "comarca": "Lluçanès",
+    "activitat": "Productes làctics",
+    "estat": "En funcionament",
+    "web": "https://www.llucanes.cat/programa/formatgeria-obrador-comunitari/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.00681,
+     41.99285
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Soler de n'Hug",
+    "municipi": "Prats de Lluçanès",
+    "comarca": "Lluçanès",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RSIPAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.71788,
+     41.70801
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Tordixai SL",
+    "municipi": "Tordera",
+    "comarca": "Maresme",
+    "activitat": "boví, oví i cabrum, ungulats",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RSIPAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.097,
+     41.811
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Consorci per la Promoció dels Municipis del Moianès",
+    "municipi": "Moià",
+    "comarca": "Moianès",
+    "activitat": "",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": true,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.98511,
+     41.79085
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Soler Urgell SL",
+    "municipi": "Calders",
+    "comarca": "Moianès",
+    "activitat": "conills",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RSIPAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.4628,
+     40.68237
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de la Galera",
+    "municipi": "la Galera",
+    "comarca": "Montsià",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.04378,
+     41.89456
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Morros Fills SL",
+    "municipi": "Artesa de Segre",
+    "comarca": "Noguera",
+    "activitat": "conills",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.96477,
+     42.23806
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador Pirineus",
+    "municipi": "la Pobla de Segur",
+    "comarca": "Pallars Jussà",
+    "activitat": "boví, oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.0442,
+     42.118
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal d'Isona i Conca Dellà",
+    "municipi": "Isona i Conca Dellà",
+    "comarca": "Pallars Jussà",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.131,
+     42.413
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Sort",
+    "municipi": "Sort",
+    "comarca": "Pallars Sobirà",
+    "activitat": "",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": true,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.06343,
+     42.32267
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Tremolina de Muntanya",
+    "municipi": "Baix Pallars",
+    "comarca": "Pallars Sobirà",
+    "activitat": "Transformats vegetals",
+    "estat": "En construcció",
+    "web": "https://tremolinacoop.cat",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.90547,
+     41.26446
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Cornudella de Montsant",
+    "municipi": "Cornudella de Montsant",
+    "comarca": "Priorat",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.8107,
+     41.14465
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Falset",
+    "municipi": "Falset",
+    "comarca": "Priorat",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.59651,
+     41.03992
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Miravet",
+    "municipi": "Miravet",
+    "comarca": "Ribera d'Ebre",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.36389,
+     42.31089
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Agrocàrnica Vall de Camprodon, SCCL",
+    "municipi": "Camprodon",
+    "comarca": "Ripollès",
+    "activitat": "boví, oví i cabrum, equí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.20387,
+     42.21093
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Aula d'Hostaleria del Ripollès",
+    "municipi": "Ripoll",
+    "comarca": "Ripollès",
+    "activitat": "Menjars preparats",
+    "estat": "En funcionament",
+    "web": "https://www.ripollesdesenvolupament.com/serveis/aula-hosteleria/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.1924,
+     42.19954
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador del Ripollès, SA",
+    "municipi": "Ripoll",
+    "comarca": "Ripollès",
+    "activitat": "boví, oví i cabrum, porcí, equí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.57402,
+     41.82948
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal d'Alfarràs",
+    "municipi": "Alfarràs",
+    "comarca": "Segrià",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.69319,
+     41.69132
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Corbins",
+    "municipi": "Corbins",
+    "comarca": "Segrià",
+    "activitat": "porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.50289,
+     41.36589
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Maials",
+    "municipi": "Maials",
+    "comarca": "Segrià",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.6,
+     41.426
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Torrebesses",
+    "municipi": "Torrebesses",
+    "comarca": "Segrià",
+    "activitat": "",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": true,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.67311,
+     41.61625
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Fundació Privada Ilersis",
+    "municipi": "Lleida",
+    "comarca": "Segrià",
+    "activitat": "Transformats vegetals",
+    "estat": "En funcionament",
+    "web": "https://ilersis.org",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.68367,
+     41.90417
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Jordi Valls Muntada",
+    "municipi": "Brunyola i Sant Martí Sapresa",
+    "comarca": "Selva",
+    "activitat": "boví, oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.6638,
+     41.86231
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "La Sobirana Cooperativa",
+    "municipi": "Santa Coloma de Farners",
+    "comarca": "Selva",
+    "activitat": "Licors",
+    "estat": "En funcionament",
+    "web": "https://lasobirana.cat/obrador/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.78294,
+     41.6724
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Obrador compartit de la Selva i la Baixa Tordera",
+    "municipi": "Blanes",
+    "comarca": "Selva",
+    "activitat": "Transformats vegetals",
+    "estat": "En construcció",
+    "web": "https://www.espaiagraribaixatordera.cat/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.51913,
+     42.01133
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Associació d'Iniciatives Rurals de Catalunya",
+    "municipi": "Solsona",
+    "comarca": "Solsonès",
+    "activitat": "oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.40234,
+     41.8104
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Torà",
+    "municipi": "Torà",
+    "comarca": "Solsonès",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.40437,
+     40.98405
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Destil·leria dels Ports",
+    "municipi": "Prat de Comte",
+    "comarca": "Terra Alta",
+    "activitat": "Licors",
+    "estat": "En funcionament",
+    "web": "https://destilleriadelsports.cat",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.31043,
+     40.94012
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal d'Horta de Sant Joan",
+    "municipi": "Horta de Sant Joan",
+    "comarca": "Terra Alta",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.31303,
+     41.0913
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Batea",
+    "municipi": "Batea",
+    "comarca": "Terra Alta",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.43473,
+     41.05446
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de Gandesa",
+    "municipi": "Gandesa",
+    "comarca": "Terra Alta",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.46948,
+     41.16533
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador municipal de la Fatarella",
+    "municipi": "la Fatarella",
+    "comarca": "Terra Alta",
+    "activitat": "oví i cabrum, porcí",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.10335,
+     41.78667
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Matadero Figuera, SA",
+    "municipi": "Agramunt",
+    "comarca": "Urgell",
+    "activitat": "conills",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.10011,
+     41.52675
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador Sabadell SA",
+    "municipi": "Sabadell",
+    "comarca": "Vallès Occidental",
+    "activitat": "boví, oví i cabrum",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.16326,
+     41.49253
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Gimave",
+    "municipi": "Ripollet",
+    "comarca": "Vallès Occidental",
+    "activitat": "aviram",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.28832,
+     41.64222
+    ]
+   },
+   "properties": {
+    "tipus": "Escorxador",
+    "nom": "Escorxador Rojas i Roca, SL",
+    "municipi": "les Franqueses del Vallès",
+    "comarca": "Vallès Oriental",
+    "activitat": "aviram",
+    "estat": "En funcionament",
+    "web": null,
+    "ubicacio_aproximada": false,
+    "font": "RIAAC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.20249,
+     41.5601
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Obrador ecofariner de Gallecs",
+    "municipi": "Mollet del Vallès",
+    "comarca": "Vallès Oriental",
+    "activitat": "Farines",
+    "estat": "En funcionament",
+    "web": "http://www.espairuralgallecs.cat/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.26738,
+     41.73745
+    ]
+   },
+   "properties": {
+    "tipus": "Obrador compartit",
+    "nom": "Viver d'Empreses Alimentàries Municipals de l'Ajuntament de Tagamanent (VEAMAT)",
+    "municipi": "Tagamanent",
+    "comarca": "Vallès Oriental",
+    "activitat": "Transformats vegetals i plats cuinats",
+    "estat": "En funcionament",
+    "web": "https://www.tagamanent.cat/obrador/",
+    "ubicacio_aproximada": false,
+    "font": "Inventari del Departament"
+   }
+  }
+ ]
+}
